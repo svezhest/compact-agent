@@ -201,6 +201,11 @@ class Section(ABC):
     name: str = ""
     #: feature flags this section understands, with their defaults
     default_features: dict[str, bool] = {}
+    #: whether this section's view goes into the DELIVERABLE (compaction.md). The model
+    #: always sees every active section in its working view; a section that is only
+    #: ground truth for others (e.g. raw typed records the digests query) sets this False
+    #: so the report stays the few buckets the user asked for.
+    in_report: bool = True
 
     def __init__(self, features: dict[str, bool] | None = None):
         self.features = {**self.default_features, **(features or {})}

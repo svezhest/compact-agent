@@ -19,7 +19,7 @@ from compact_agent.sections.base import (
 from compact_agent.sections.store import StoreError, VStore
 
 _FACTS_LIMIT = 1500
-_NOTES_LIMIT = 2500
+_NOTES_LIMIT = 700
 
 
 class CompanyFacts(BaseModel):
@@ -39,9 +39,11 @@ companies/<company>/facts — a small TYPED record (set with patch). Build it as
 offers: the company a vacancy is for gets its profile updated.
   facts fields (patch): aliases[], domain, stage (bank|startup-seed|startup-growth|bigtech|
   public|agency|…), hq, remote_policy (onsite|hybrid|remote|mixed), size_est.
-  The PROSE (companies/<company>) holds reputation, founder pedigree, products, team/culture
-  — merge in place, never append a fresh retelling. One folder per real employer; fold
-  alternate names into facts.aliases rather than forking a duplicate folder."""
+  The PROSE (companies/<company>) is SHORT — 3 to 5 plain lines, under 700 chars: what the
+  company does, the comp ranges seen in its offers, the projects/teams it hires for. No
+  sub-headings, no culture essays, no speculation about funding or reputation unless a post
+  states it. Merge in place, never append a fresh retelling. One folder per real employer;
+  fold alternate names into facts.aliases rather than forking a duplicate folder."""
 
 
 class CompaniesSection(Section):

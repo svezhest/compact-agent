@@ -21,7 +21,7 @@ from compact_agent.sections.base import (
 from compact_agent.sections.store import StoreError, VStore
 
 SHORTLIST_KEY = "shortlist.md"
-SHORTLIST_LIMIT = 6000
+SHORTLIST_LIMIT = 2500
 
 
 def _load_profile() -> str:
@@ -56,11 +56,13 @@ class ShortlistSection(Section):
     def paths_doc(self) -> str:
         return (
             "shortlist.md — a SINGLE ranked list of the offers that FIT THE CANDIDATE PROFILE "
-            "below. One line per offer: `- [fit N/10] <company> — <grade × specialization>, "
-            "<comp if known>, <work_mode> — <why it fits / the catch> (card job_offers/<company>/"
-            "<id>)`. Best first. Only real fits (6/10 and up); drop entries that stop fitting or "
-            "whose card turned likely_closed/expired. Ground it in query('job_offers/', …), never "
-            "in memory. MERGE (read, then overwrite a refined list); never append a retelling.\n"
+            "below, at most 10 lines, under 2500 chars. One line per offer: `- [fit N/10] "
+            "<company> — <grade × specialization>, <comp if known>, <work_mode> — <why it fits / "
+            "the catch> (card job_offers/<company>/<id>)`. Best first. ONLY fits of 6/10 and up — "
+            "no 'partial', 'mismatch' or 'out of scope' sections, no headings, no preamble; if "
+            "nothing fits, one line saying so. Drop entries that stop fitting or whose card turned "
+            "likely_closed/expired. Ground it in query('job_offers/', …), never in memory. MERGE "
+            "(read, then overwrite a refined list); never append a retelling.\n"
             f"CANDIDATE PROFILE:\n{self.profile}"
         )
 
@@ -92,7 +94,8 @@ class ShortlistSection(Section):
             "query('job_offers/', where={'status': 'open'}, sort='-posted_at') and read the cards "
             "(and notes) that could fit; score each fit 0–10 on role match, stack overlap, grade, "
             "comp and work mode; keep only 6/10 and up, best first, one line each with the card "
-            "path and a concrete reason. Read shortlist.md first and overwrite a refined version."
+            "path and a concrete reason — at most 10 lines, nothing below 6/10, no headings. Read "
+            "shortlist.md first and overwrite a refined version."
         )
         return [Task(
             priority=BASE_PRIORITY["ingest"] - 1,  # after job_offers ingest in the same batch

@@ -378,7 +378,7 @@ class Engine:
         self.sections = build_sections(self.spec)
         self._view_cache: tuple[tuple, str] | None = None
 
-    def _assemble(self, vctx: ViewContext, budget_tokens: int) -> str:
+    def _assemble(self, vctx: ViewContext, budget_tokens: int, *, report: bool = False) -> str:
         """`assemble` memoized on the store version.
 
         Assembling re-renders and re-tokenizes the WHOLE store; the ingest loop needs the
@@ -387,10 +387,10 @@ class Engine:
         O(batches × chunks × store size): quadratic in the corpus."""
         # id(store) guards against a replaced store (from_dict resets version to 0).
         key = (id(self.store), self.store.version,
-               vctx.relative_date, vctx.kind, vctx.platform, budget_tokens)
+               vctx.relative_date, vctx.kind, vctx.platform, budget_tokens, report)
         if self._view_cache is not None and self._view_cache[0] == key:
             return self._view_cache[1]
-        text = assemble(self.store, self.sections, vctx, budget_tokens)
+        text = assemble(self.store, self.sections, vctx, budget_tokens, report=report)
         self._view_cache = (key, text)
         return text
 
@@ -564,7 +564,7 @@ class Engine:
             # Snapshot SYNCHRONOUSLY (the loop keeps mutating done_atoms/store), then push the
             # serialize + disk writes off the event loop so the per-atom mid-batch checkpoint
             # doesn't stall the next LLM call on I/O.
-            report = self._assemble(vctx(rel), budget.summary_budget)
+            report = self._assemble(vctx(rel), budget.summary_budget, report=True)
             named = idmap.humanize(report)
             payload = json.dumps({
                 "version": 3, "done_atoms": dict(done_atoms), "store": self.store.to_dict(),

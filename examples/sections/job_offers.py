@@ -178,6 +178,9 @@ def _offer_line(card: dict) -> str:
 
 class JobOffersSection(Section):
     name = "job_offers"
+    # Ground truth for the digests (companies / market / shortlist query it); the model
+    # sees the cards in its working view, the reader gets the digests only.
+    in_report = False
     default_features: dict[str, bool] = {}
 
     # ---- paths -------------------------------------------------------------

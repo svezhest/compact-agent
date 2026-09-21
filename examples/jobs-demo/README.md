@@ -46,15 +46,19 @@ importer or `limit` to keep the demo small.
 
 `output/` holds two real, de-identified reports (people appear as `@u<hash>`; the
 hash → name vault stays local) produced from public Telegram job channels, 60 latest posts
-each, comments included:
+each, comments included. The report holds only the three deliverable buckets; the typed
+offer cards stay in the store (`in_report = False`).
 
 - `fkn-vacancies.md` — [@vacancy_cs](https://t.me/vacancy_cs) («ФКН: Вакансии»), 471
-  messages; the run was stopped after 2 of 5 batches.
-- `hiring-kt.md` — [@hiring_ct](https://t.me/hiring_ct) («Hiring КТ»), 60 posts; stopped
-  after 2 of 3 batches.
+  messages. Claude Haiku via the gateway, stopped after 2 of 5 batches, written under the
+  earlier, looser section formats (long company profiles, a "mismatch" tail in the
+  shortlist): kept as the before picture.
+- `hiring-kt.md` — [@hiring_ct](https://t.me/hiring_ct) («Hiring КТ»), 60 posts. Batches
+  1–2 by Haiku, then resumed on `nex-agi/nex-n2.5-pro:free` (OpenRouter) under the current
+  tight formats: the shortlist and market sections are its work; the companies section is
+  still the older long form (the tighten/merge tasks were queued when the free-tier daily
+  limit hit, hence the duplicated Fast Forward profile).
 
-Model: Claude Haiku through `claude_code_gateway.py`, window 32k, `-j 6`, the profile in
-`profile.md`. Partial on purpose: the point is the shape of the four buckets, not
-coverage. Known rough edges visible in them: `variance` is never filled in the offer cards,
-net-USD estimates are the model's guesses, and the digest sections sometimes carry their own
-sub-headings.
+The difference between the two shortlists and market digests is the format spec of the
+bucket, not the model. Known rough edges: `variance` is never filled in the offer cards
+and net-USD estimates are the model's guesses.

@@ -15,15 +15,15 @@ from compact_agent.sections.base import (
 from compact_agent.sections.store import StoreError, VStore
 
 MARKET_KEY = "market.md"
-MARKET_LIMIT = 5000
+MARKET_LIMIT = 3000
 
 MARKET_GUIDANCE = """\
-market.md — a SINGLE evergreen, free-form PROSE digest of the job market seen so far: which
-roles and skills are in demand, the comp ranges (in NET YEARLY USD) by role family, remote vs
-onsite, the notable employers, and any trend/drift over time. Not a per-offer log — a synthesis.
-Ground it in the offers with query('job_offers/', …) (filter/sort/limit) rather than guessing,
-and MERGE into the existing file (read it, refine it) rather than appending a fresh retelling.
-Keep it under its size limit: tighten as it grows, preserving the durable read of the market."""
+market.md — a SINGLE compact digest of the market BY DIRECTION (specialization), under 3000
+chars. One short paragraph or 2–4 bullet lines per direction that has offers: how many offers,
+the grades seen, the comp range (NET YEARLY USD, as a range, not a mean), remote vs onsite, the
+employers. Then at most 3 lines of overall trend. No sub-headings, no tables, no essays, no
+directions with zero offers. Ground it in query('job_offers/', …) (filter/sort/limit) rather than
+guessing; MERGE into the existing file (read it, refine it), never append a fresh retelling."""
 
 
 class MarketSection(Section):
@@ -73,12 +73,11 @@ class MarketSection(Section):
 
     def _ingest(self, ctx: RuleContext) -> list[Task] | None:
         prompt = (
-            "MARKET: refine the single evergreen digest in market.md from the offers recorded so "
-            "far. Use query('job_offers/', …) to ground it — which roles/skills are in demand, the "
-            "comp ranges (net yearly USD) by role family, remote vs onsite, the notable employers, "
-            "and any trend or drift. Free-form prose, a synthesis (not a per-offer list). MERGE "
-            "into the existing file (read it, then edit/overwrite a refined version); never append "
-            "a fresh retelling."
+            "MARKET: refine market.md — a compact by-direction digest (see its standard: per "
+            "specialization with offers: count, grades, comp RANGE in net yearly USD, remote/onsite, "
+            "employers; then ≤3 trend lines; under 3000 chars, no sub-headings). Ground every line "
+            "in query('job_offers/', …). Read the file, then overwrite a refined version; never "
+            "append a fresh retelling."
         )
         return [Task(
             priority=BASE_PRIORITY["ingest"],

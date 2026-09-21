@@ -1,101 +1,169 @@
-# Job Offers
+# Shortlist
 
-- **junior data_analytics** @ Альфа-Банк — ~$23k±0k/yr — hybrid/Russia
-  Junior+ Data Engineer for cross-border transfers, Oracle/Airflow/PySpark stack · _posted 2026-04-24_
+# SHORTLIST (FITS FOR APPLIED AI DEVELOPER, MIDDLE-TO-SENIOR, LLM APPLICATIONS)
 
-- **middle business_analytics** @ Альфа-Банк — ~$41k±0k/yr — hybrid/Russia (Moscow/remote hybrid)
-  Product analyst, cross-border transfers, ML personalization project · _posted 2026-04-24_
+## FITS (6+/10)
 
-- **senior ds_ml** @ Cantina — ~$280k±0k/yr — remote/Remote (GMT ±3 preferred); offices: London, New York, California — [standout]
-  Applied ML Engineer — Real-Time Video Generation, $220K–260K base + bonus, Remote (GMT ±3) · _posted 2026-04-24_
+- [fit 6/10] **Search-Rec Startup** — senior × ds_ml, $54K net, remote — Remote + product-facing ✓; LLM integration + recommendations/search pipeline. Specialization blend (classical ML + LLM UX layer) vs. pure agents/RAG/tool-calling. Mid-range comp, not upper tier. Russia-based. Posted June 15; verify status. (card job_offers/search-rec-startup/818-ml-rec-senior)
 
-- **devops** @ Cursor — comp n/a — remote/UK — [standout]
-  infra engineer @ Cursor, remote from UK · _posted 2026-04-24_
+- [fit 6/10] **Cantina** — senior × ds_ml, $280K net (est.), remote — Remote + upper-range comp ✓; but ML-engineering (training/optimization) vs. typical LLM app development. Modern domain (video generation), real-time optimization angle has strong engineering component. Worth exploring despite specialization mismatch. (card job_offers/cantina/802-ml-video)
 
-- **senior backend** @ Dwelly — comp n/a — remote/Remote, UK timezone +/- 2 hours — [notable]
-  Senior backend/full-stack engineer for payment system, Dwelly (UK rental), remote, +/- 2h UK timezone · _posted 2026-04-24_
+## PARTIAL FITS (4–5/10)
 
-- **junior backend** @ Финтех стартап (название не раскрыто) — comp n/a — unknown
-  Backend Developer with ML skills, early-stage fintech MVP, equity only, remote TBD · _posted 2026-04-24_
+- [fit 5/10] **JetBrains** — senior × ai_engineering, ~$135K net (130–250K EUR gross), onsite — Strong alignment on agentic models, SFT/RL pipelines, evaluation for code agents; research-heavy infrastructure matches rare applied-AI hiring appetite. Minuses: onsite only (London/Berlin/Amsterdam/Munich, not remote); research-focused, not product-facing; compensation in middle range, not upper tier; relocation required. (card job_offers/jetbrains/798-ml-agents)
 
-- **senior ds_ml** @ GigaChat — ~$75k±0k/yr — remote/Russia — [notable]
-  Deep Learning Engineer (Претренинг и Alignment), Senior/Lead, $75–100k net/year, remote, Russia · _posted 2026-04-24_
+## MISMATCH (2–3/10)
 
-- **senior ai_engineering** @ JetBrains — ~$135k±0k/yr — onsite/London, Berlin, Amsterdam, Munich and others — [standout]
-  Senior ML Research Engineer (Agentic models) at JetBrains, 130–250K EUR/year, agent training & evaluation · _posted 2026-04-24_
+- [fit 3/10] **GigaChat** — senior × ds_ml, $75–100K net, remote Russia — Compensation below target range. Specialization on core LLM development (pretraining, RLHF, alignment) vs. product-level LLM applications (agents, RAG, tool calling). Research-oriented; remote but Russia-based. (card job_offers/gigachat/806-dl-eng)
 
-- **senior ds_ml** @ JetBrains — ~$135k±0k/yr — onsite/London, Berlin, Amsterdam, Munich and others — [standout]
-  Senior ML Research Engineer (LLM training & performance) at JetBrains, 130–250K EUR/year, optimization at scale · _posted 2026-04-24_
+- [fit 2/10] **Т-Банк (направление роста)** — senior × ds_ml, ~$70K net/yr, hybrid Russia — Classical ML for pricing/ads/growth, not LLM applications. Compensation lower than target. Hybrid work in Russia (Moscow/SPB). (card job_offers/t-bank/800-team-efficiency-ds)
 
-- **senior ds_ml** @ JetBrains — ~$135k±0k/yr — onsite/London, Berlin, Amsterdam, Munich and others — [standout]
-  Senior ML Research Engineer (Post-training) at JetBrains, 130–250K EUR/year, RLHF/RLVR for coding models · _posted 2026-04-24_
+- [fit 2/10] **Dwelly** — senior × backend, remote UK — Pure backend (Node.js/TypeScript, payment systems, accounting). No LLM/AI context. Different domain and stack. (card job_offers/dwelly/799-backend-payment)
 
-- **senior ds_ml** @ JetBrains — ~$135k±0k/yr — onsite/London, Berlin, Amsterdam, Munich and others — [standout]
-  Senior ML Research Engineer (Pre-training) at JetBrains, 130–250K EUR/year, LLM pretraining at scale · _posted 2026-04-24_
+## OUT OF SCOPE
 
-- **senior devops** @ JetBrains — ~$135k±0k/yr — onsite/London, Berlin, Amsterdam, Munich and others — [notable]
-  Senior ML Ops Engineer (ML workflows) at JetBrains, 130–250K EUR/year, infra automation for ML at scale · _posted 2026-04-24_
+- [fit 1/10] **Hydromancer** — lead × system_engineering, $120K net + large equity, hybrid Netherlands — Blockchain/on-chain data infrastructure (Hyperliquid, Polymarket), not LLM applications. Rust/Clickhouse/Redis stack, not Python/FastAPI/OpenAI APIs. Founding-level systems role (high-impact but misaligned domain). (card job_offers/hydromancer/815-founding-infra)
 
-- **senior backend** @ Order Capital — ~$185k±0k/yr — onsite/Amsterdam, Netherlands — [notable]
-  Senior C++ Engineer for HFT trading systems, Amsterdam onsite, $200–360K + profit sharing · _posted 2026-04-24_
+- [fit 1/10] **Финтех стартап** — junior × backend, equity only, unknown — No salary, equity-only in unknown startup. Junior level. Fintech domain, not LLM applications. (card job_offers/fintech-startup/u0449bf0e-backend-ml)
 
-- **senior ds_ml** @ Order Capital — ~$185k±0k/yr — onsite/Amsterdam, Netherlands — [notable]
-  Senior Research Engineer for trading analytics & strategy, HFT, Amsterdam onsite, $200–360K + profit sharing · _posted 2026-04-24_
+# Market
 
-- **senior ds_ml** @ Т-Банк — ~$70k±0k/yr — hybrid/Moscow / SPB, Russia — [notable]
-  Senior/Lead DS/MLE в команду эффективности Т-Банка: ценообразование, реклама, аналитика, рост · _posted 2026-04-24_
+# JOB MARKET DIGEST (AS OF 2026-09-21)
 
-- **middle business_analytics** @ Т-Банк — ~$32k±0k/yr — hybrid/Moscow / SPB, Russia
-  Продуктовый аналитик (Middle/Middle+), Т-Банк, направление роста: 250–400k RUB/мес. брутто + премия · _posted 2026-04-24_
+## OBSERVED DEMAND
 
-- **middle business_analytics** @ Где мои дети — ~$28k±0k/yr — remote/remote, or office: Saint Petersburg / Perm / Belgrade
-  Product analyst, 200–300k RUB/mo, remote or office (SPb/Perm/Belgrade), 2+ years SQL & stats · _posted 2026-04-24_
+### BLOCKCHAIN & ON-CHAIN DATA INFRASTRUCTURE
+- **Emerging segment.** Hydromancer (Netherlands-based, funded, profitable from month 3) recruiting founding infrastructure engineer for real-time data pipelines in on-chain markets (Hyperliquid, Polymarket). Requires Rust, Clickhouse, Redis, low-latency ETL, HFT-grade optimization. Compensation competitive ($100–140K base + significant equity). Signals: blockchain/DeFi market infrastructure maturing; latency-critical data pipelines (similar skill set to HFT, but blockchain-native). Likely growth area for systems engineers with performance optimization background.
 
-- **senior system_engineering** @ Defuse Labs — ~$155k±0k/yr — remote/Remote (not RF/RB) — [notable]
-  Senior Solver Network engineer for NEAR Intents; $85–145K base + tokens + bonus, remote (not RF/RB) · _posted 2026-04-25_
+### GENERATIVE AI & VIDEO PRODUCTION
+- **Video/Generative AI:** Cantina (standout tier) is the clearest standout, recruiting senior ML engineers for real-time video generation. Focus: training, fine-tuning, distillation, compression, inference acceleration, latency optimization. Signal of video generation moving from research to production; demands practical engineering (Docker, K8s, TensorRT, ONNX, Triton) alongside ML research. Product-facing (integrating optimized models into live systems), not pure research.
 
-- **middle business_analytics** @ Авито — ~$35k±0k/yr — Moscow, Russia
-  Product analyst for ML Autotasking (sales recommendation & channel orchestration), Avito · _posted 2026-06-15_
+### CORE LLM DEVELOPMENT & TRAINING INFRASTRUCTURE
+- **Scale:** JetBrains recruiting across five senior-level ML research roles (pretrain, post-training/RLHF, agentic models, performance profiling, ML ops). GigaChat recruiting senior deep learning engineers. Roles span distributed training (hundreds of GPUs), custom architecture research, kernel optimization, evaluation frameworks. Research-heavy; limited product-facing. Clear European (JetBrains) vs. Russian (GigaChat) market split with 50%+ compensation gap.
+- **Infrastructure Tooling:** JetBrains ML ops role reflects emerging demand for specialized infra engineers to automate model-team workflows, orchestrate GPU clusters, build monitoring systems.
 
-- **senior devops** @ Hydromancer — ~$120k±0k/yr — hybrid/Netherlands (office), remote flexible — [standout]
-  Founding Infrastructure Engineer для on-chain дата-пайплайна (Hydromancer/Hyperliquid), $100–140K base + large equity, Netherlands remote/hybrid · _posted 2026-06-15_
+### PRODUCT-LEVEL LLM APPLICATIONS & AGENTIC SYSTEMS
+- **Minimal signal for pure LLM apps.** No offers for agents, RAG, tool calling, or LLM-as-application-layer roles. JetBrains' agentic-models position is research-focused (training agents, evaluation envs for coding tasks), not building products with agents.
+- **Emerging: LLM + classical ML blend.** Search-rec-startup (international, Moscow-based, June 2026) hiring senior ML engineer to integrate LLM use cases into search/recommendations pipeline alongside classical ML (content models, candidate generation, ranking). Signal: LLM integration moving into product-level domains beyond standalone chatbots/copilots. Comp: $54K net/yr (mid-range, Russia-based).
 
-- **senior system_engineering** @ Mirai — ~$54k±0k/yr — remote/Remote (distributed, London to Tokyo) — [notable]
-  Inference Engineer — optimize LLM inference stack, low-level compute kernels, KV cache, batching, quantization · _posted 2026-06-15_
+### BACKEND, PAYMENT SYSTEMS, & HFT
+- **Payment/Fintech:** Dwelly (UK rental-platform scale-up) recruiting senior backend for payment systems (Node.js/TS, accounting reconciliation). Order Capital (HFT fund, Amsterdam) recruiting senior C++ engineer + research engineer for trading systems and strategy analytics — requires strong algorithms/data structures, 5+ years C++, often ICPC/IMO pedigree.
+- **Early-stage equity-only:** One fintech MVP-stage startup offering equity only for junior backend + ML; no market signal of experienced engineers attracted.
 
-- **senior ds_ml** @ Mirai — ~$54k±0k/yr — remote/Remote (distributed, London to Tokyo) — [notable]
-  ML Research Engineer — quantization, speculative decoding, LLM inference optimization for on-device AI · _posted 2026-06-15_
+## COMPENSATION RANGES (NET YEARLY USD)
 
-- **senior backend** @ Noeon — ~$80k±0k/yr — hybrid/Tokyo, Japan — [notable]
-  Senior Backend Engineer (Rust), Tokyo, ~$90–110k + equity, hybrid · _posted 2026-06-15_
+| Role Family | Grade | Market | Range | Notes |
+|---|---|---|---|---|
+| **ML Engineering (Generative AI/Video)** | Senior | Western | $220K–300K | Base $220K–260K + bonus; Cantina remote; practical production optimization |
+| **Core LLM Development (Pretrain/Alignment)** | Senior | Russian | $75K–100K | GigaChat remote; ~50% discount vs. Western generative-AI roles; research-heavy |
+| **Core LLM Development (Research)** | Senior | European | $130K–250K (EUR ≈ $140K–270K USD) | JetBrains (multiple roles); onsite European cities; research-heavy; relocation support offered |
+| **Backend / HFT Systems** | Senior | European | $200K–360K + profit sharing | Order Capital, Amsterdam onsite; requires deep expertise, often competitive-programming background |
+| **On-Chain Data Infrastructure (Founding)** | Lead | European | $100K–140K base + large equity | Hydromancer; Rust, Clickhouse, Redis; real-time low-latency ETL for blockchain markets; hybrid Netherlands |
+| **Backend (Payment Systems)** | Senior | UK/EU | $135K–360K (est.) | Dwelly; remote UK timezone ±2h; no explicit comp posted |
+| **Product Analytics** | Middle | Russian | $26K–42K (net USD) | Russia-based (Moscow/SPB/Perm); hybrid; A/B testing, SQL, Python, some ML context |
+| **Data Engineering / Analytics** | Junior–Middle | Russian | $23K–60K | Russia-based; ETL, warehouse, analytics; Oracle, Airflow, Spark; hybrid; limited upside trajectory |
 
-- **middle system_engineering** @ Quantix — ~$75k±0k/yr — remote/remote (Russia preferred)
-  Rust Engineer for Solana Validator, high-throughput & low-latency, $3–5K/mo + 30–100% bonus, remote · _posted 2026-06-15_
+## WORK ARRANGEMENTS
 
-- **senior ds_ml** @ International Startup (search/recommendations, name under NDA) — ~$54k±0k/yr — remote/Moscow, Russia (office); Remote (work from anywhere) — [notable]
-  Senior ML Engineer for international search/recommendations startup; LLM + recommendations pipeline · _posted 2026-06-15_
+- **Remote-first:** Cantina (video ML) prefers GMT ±3, accepts global remote; GigaChat (Russian LLM) fully remote; Dwelly (payment backend) remote +/- 2h UK; fintech startups remote TBD
+- **Hybrid/Flexible:** Hydromancer (on-chain infra) prefers in-person onboarding but open to remote; Т-Банк (Russia) hybrid; Альфа-Банк (Russia) hybrid
+- **Onsite/Hybrid:** JetBrains (European cities: London, Berlin, Amsterdam, Munich) onsite; Order Capital (Amsterdam) onsite
+- **Relocation support:** JetBrains offers relocation packages; Order Capital offers "extended relocation package for employee + family"; Hydromancer offers visa sponsorship and relocation support; Cantina minimal (visa/legal help only)
 
-- **junior ds_ml** @ Wildberries — ~$30k±0k/yr — remote/Remote (optional offices with free meals)
-  Junior+ ML Engineer for internal fraud detection & anomaly detection, 200–350k RUB net, remote · _posted 2026-06-15_
+## NOTABLE EMPLOYERS
 
-- **junior data_analytics** @ X5 Group (Пятёрочка, Перекрёсток, Чижик) — ~$39k±0k/yr — remote/remote (Moscow offices available: м. Добрынинская, м. Волгоградский пр., МЦД Калитники)
-  Junior DS (Causal Inference & Econometrics) for ad-hoc analytics, 260–360k RUB/mo + 20% bonus, remote/Moscow · _posted 2026-06-15_
+- **Cantina** (London/NY/SF): Generative AI video, venture-backed, remote-first, higher Western compensation
+- **JetBrains** (Munich HQ, European offices): Profitable 25-year-old developer-tools giant; aggressive ML hiring across training, optimization, agentic models
+- **Cursor** (US-based, Series D $2B valuation): AI code editor; recruiting infra engineers from UK; compensation at OpenAI/Anthropic level; minimal public info on roles
+- **Hydromancer** (Netherlands, on-chain infrastructure): Early-stage, profitable from month 3, on-chain data pipeline specialists; founding-level infrastructure roles with direct product/architecture influence; Rust + low-latency systems focus
+- **Т-Банк** (Russia): High-growth fintech ecosystem; team-efficiency division (pricing, ads, growth) hiring multiple DS/MLE, strong research pedigree (ШАД/ФКН/МФТИ graduates)
+- **Альфа-Банк** (Russia): Cross-border transfer team showing 2–3x YoY growth; hiring junior/middle data engineers and product analysts for analytics-heavy work
 
-- **trainee data_analytics** @ X5 Group — ~$12k±0k/yr — remote/Moscow, Russia (office option available) — likely_closed
-  Data Analyst Intern (ad-hoc analytics), 100K RUB/mo gross, 6-month internship, remote or Moscow · _posted 2026-06-15_
+## TRENDS
 
-- **middle business_analytics** @ Яндекс Лавка — ~$33k±0k/yr — hybrid/Moscow, Russia
-  Product analyst for search & AI scenarios, Yandex Lavka, Moscow, 250–400k RUB/mo · _posted 2026-06-15_
-
-- **senior ds_ml** @ Бутиковый HFT-фонд — ~$120k±0k/yr — remote/Bangkok, Thailand (onboarding); Remote option — [notable]
-  Quant Researcher (Full-Stack HFT), $9–13k/mo base + unlimited profit share, remote or Bangkok onboarding · _posted 2026-09-21_
-
-- **lead system_engineering** @ Hydromancer — ~$120k±0k/yr — hybrid/Netherlands — [standout]
-  Founding Infrastructure Engineer for real-time on-chain data pipelines; Rust, Clickhouse, Redis; $100–140K base + large equity · _posted 2026-09-21_
+1. **Video generation entering production:** ML engineers with production-optimization skills (distillation, compression, real-time inference) in higher demand; Cantina as test case for this shift.
+2. **LLM training infrastructure consolidating:** JetBrains' multi-role hiring wave suggests established tech vendors building in-house LLM capabilities; GigaChat (Russian competitor) also ramping.
+3. **Blockchain/on-chain infrastructure maturing:** Hydromancer signals transition from pure crypto trading to professional data infrastructure for DeFi/on-chain markets; requires systems-level performance optimization (low-latency, high-throughput ETL) and draws from HFT talent pool. Small but growing segment.
+4. **Geographic comp divergence:** Western generative-AI roles ($220K–300K) vs. Russian core LLM ($75K–100K) showing 2–3x gap; European research (JetBrains, $130K–250K EUR) in middle; blockchain infrastructure ($100K–140K + equity) emerging in middle-to-upper range.
+5. **Product-app LLM roles scarce here:** Applied AI (agents, RAG, tool calling) roles absent, despite candidate demand. Likely: early-stage startups not yet posting in this channel, or product-layer LLM apps see lower hiring velocity than infrastructure/training roles.
+6. **Russian fintech growing (but bounded):** Fast-scaling product/growth teams hiring, but comp ceilings at $60K net even for senior DS roles; attracts regional talent pool, not global competition.
 
 # Companies
 
-_[… 9 older item(s) trimmed to fit context …]_
+## alfa-bank
+domain: fintech-banking · stage: bigtech · hq: Russia · remote policy: hybrid · aka: Альфа-Банк
+**Альфа-Банк** — крупная российская финтех и банковская структура.
+
+Команда трансграничных переводов молодая и высокорастущая, с экспоненциальным улучшением метрик год-в-год. Инвестирует в data-инфраструктуру и аналитику для поддержки быстрого масштабирования. Технологический стек включает Oracle, Greenplum, S3, Airflow и PySpark для data-пайплайнов; Power BI и Superset для аналитики и отчетности.
+
+Гибридный формат работы с фокусом на data-driven принятие решений.
+
+## alpha-bank
+domain: fintech · stage: public · hq: Moscow, Russia · remote policy: hybrid · size est: 5000+ · aka: Альфа-Банк, Alpha-Bank
+**Альфа-Банк** — крупный российский финтех-банк, работающий с физическими и юридическими лицами. Активно развивает digital-сервисы, включая трансграничные переводы.
+
+Нанимает product analysts и data scientists для работы над ML-персонализацией и аналитикой в продуктовых командах. Команда трансграничных переводов молодая и амбициозная, показатели растут кратно. Культура: data-driven development, A/B-тесты, быстрое внедрение инноваций.
+
+Гибридный формат работы (возможно, с привязкой к московскому офису).
+
+## cantina
+domain: generative-ai-video · stage: startup-growth · hq: unknown · remote policy: remote · size est: unknown
+Cantina — AI-driven video generation company, venture-backed. Офисы в Лондоне, Нью-Йорке и Калифорнии. Фокус на real-time video generation и productionization моделей. Remote-first культура. Нанимают strong ML engineers для productionization и optimization видеогенерационных моделей.
+
+## cursor
+domain: cursor.sh · stage: bigtech · hq: unknown · remote policy: remote · size est: unknown
+AI-powered code editor с массовым принятием на рынке. Недавно (апрель 2026) завершили Series D на $2B, компания оценивается в $29B+.
+
+Более половины компаний из Fortune 500 используют Cursor. На пике обрабатывают 1 миллион запросов в секунду.
+
+Команда включает людей с выдающимся track record: создатели первых code completion tools, основные контрибьюторы в GitHub и Notion.
+
+## dwelly
+domain: dwelly.com · stage: startup-growth · hq: London, UK · remote policy: remote · size est: 100+ agencies, 10000+ properties under management · aka: Dwelly
+**Dwelly** — платформа для оптимизации аренды жилья в UK. Решают боль долгосрочной аренды в Лондоне и UK: бесконечные переписки с агентствами в WhatsApp, отменённые просмотры, потерянные квартиры, игнорируемые жалобы.
+
+Собственники 100+ агентств недвижимости, управляют 10000+ объектов в портфеле. Недавно закрыли Series A инвестиции (General Catalyst, Begin Capital и др.) на $93M. Команда работает удалённо с focus на UK timezone.
+
+## fintech-startup
+domain: unknown · stage: startup-seed · hq: unknown · remote policy: unknown · size est: unknown
+Ранний финтех стартап (название не раскрыто; контакт @u0449bf0e). Разрабатывают приложение для финансов (не просто учёт/мониторинг). Текущий фокус: MVP разработка. Команда поиск опытного бэкендера с ML компетенциями; предлагают equity участие вместо оклада. Нет ясности по масштабу, режиму работы, или географии на данный момент.
+
+## gigachat
+domain: gigachat.ru · stage: unknown · hq: Russia · remote policy: remote · size est: unknown
+**GigaChat** — российская генеративная языковая модель и платформа, нацеленная на конкуренцию в глобальном рынке LLM. Один из самых мощных LLM в мире; способен генерировать текст, изображения, код (Python), решать логические задачи, писать поэзию.
+
+## КОМАНДА & КУЛЬТУРА
+
+Разработчики с красными дипломами топовых русских вузов (МГУ, МФТИ и др.) + опыт в Big Tech компаниях. Сильный фокус на research-level LLM development (претренинг, alignment, RLHF). Лидеры: Женя Косарев, Эмиль Шакиров.
+
+## УСЛОВИЯ РАБОТЫ
+
+- Полная удаленка
+- IT-аккредитация
+- Высокое корпоративное ДМС
+- Конкурентная зарплата + значительный годовой бонус (4–7 окладов)
+
+## НАЙМ
+
+"One Day Offer" формат: интервью за один день с техническими секциями, встречей с лидами и фидбеком в реальном времени.
+
+## jetbrains
+domain: jetbrains.com · stage: public · hq: Munich, Germany · remote policy: onsite · size est: 1500+ · aka: JetBrains
+**JetBrains** — крупная, стабильная компания с 25-летней историей. Профитабельна и растёт. Более 10 миллионов разработчиков используют их IDEs и инструменты (IntelliJ IDEA, PyCharm, Rider и др.). Штаб-квартира в Мюнхене, офисы в Лондоне, Берлине, Амстердаме и других городах.
+
+**Стратегия:** Активно инвестирует в AI и ML. Строит AI-native облачную платформу для разработчиков. Расширяет ML команду, набирает опытных инженеров по претрейну, post-training, agentic models, performance optimization и ML ops.
+
+**Культура:** Ориентированы на качество, документированность, опытных инженеров. Предлагают релокацию для перспективных кандидатов, бонусы, социальный пакет.
+
+**Замечание:** Публичная компания (хотя информация о листинге требует проверки), стабильный работодатель. Офисы находятся в европейских городах с высокими налогами — важно считать нетто при расчёте компенсации.
+
+## order-capital
+domain: fintech, hft · stage: startup-growth · hq: Amsterdam, Netherlands · remote policy: onsite · size est: 30 · aka: Order Capital
+**Order Capital** — HFT-фонд (high-frequency trading), основанный победителем ICPC. Занимаются высокочастотной торговлей и разработкой технологических решений с фокусом на скорость, эффективность и качество кода. Команда состоит из выпускников топовых российских и мировых вузов (ШАД, МФТИ, РЭШ и т.д.) и победителей международных олимпиад.
+
+Сейчас активно расширяют торговую и research команду в Амстердаме. Предлагают конкурентную компенсацию ($200–360K + profit sharing), расширенный релокационный пакет для сотрудников и их семей. Культура: решение сложных технических задач, талантливая среда, инвестиция в развитие, team buildings.
+
+Компания фокусируется на качестве инженерии: требуют глубокие знания алгоритмов, структур данных, многопоточности и оптимизации производительности.
 
 ## t-bank
 domain: t-bank.ru · stage: bigtech · hq: Moscow, Russia · remote policy: hybrid · size est: 1000+ · aka: T-Bank, Т-Банк
@@ -281,93 +349,3 @@ domain: e-commerce, quick-commerce · stage: public · hq: Moscow, Russia · rem
 **Culture:** Yandex core (data-driven, engineering-strong, competitive); Lavka carries startup speed. Hybrid work model; Moscow-based team.
 
 **Market position:** Leader in ultra-fast delivery in Russia; competing with similar services (Wunderbucket, Samokat, etc.).
-
-# Market
-
-# JOB MARKET DIGEST (AS OF 2026-09-21)
-
-## OBSERVED DEMAND
-
-### BLOCKCHAIN & ON-CHAIN DATA INFRASTRUCTURE
-- **Emerging segment.** Hydromancer (Netherlands-based, funded, profitable from month 3) recruiting founding infrastructure engineer for real-time data pipelines in on-chain markets (Hyperliquid, Polymarket). Requires Rust, Clickhouse, Redis, low-latency ETL, HFT-grade optimization. Compensation competitive ($100–140K base + significant equity). Signals: blockchain/DeFi market infrastructure maturing; latency-critical data pipelines (similar skill set to HFT, but blockchain-native). Likely growth area for systems engineers with performance optimization background.
-
-### GENERATIVE AI & VIDEO PRODUCTION
-- **Video/Generative AI:** Cantina (standout tier) is the clearest standout, recruiting senior ML engineers for real-time video generation. Focus: training, fine-tuning, distillation, compression, inference acceleration, latency optimization. Signal of video generation moving from research to production; demands practical engineering (Docker, K8s, TensorRT, ONNX, Triton) alongside ML research. Product-facing (integrating optimized models into live systems), not pure research.
-
-### CORE LLM DEVELOPMENT & TRAINING INFRASTRUCTURE
-- **Scale:** JetBrains recruiting across five senior-level ML research roles (pretrain, post-training/RLHF, agentic models, performance profiling, ML ops). GigaChat recruiting senior deep learning engineers. Roles span distributed training (hundreds of GPUs), custom architecture research, kernel optimization, evaluation frameworks. Research-heavy; limited product-facing. Clear European (JetBrains) vs. Russian (GigaChat) market split with 50%+ compensation gap.
-- **Infrastructure Tooling:** JetBrains ML ops role reflects emerging demand for specialized infra engineers to automate model-team workflows, orchestrate GPU clusters, build monitoring systems.
-
-### PRODUCT-LEVEL LLM APPLICATIONS & AGENTIC SYSTEMS
-- **Minimal signal for pure LLM apps.** No offers for agents, RAG, tool calling, or LLM-as-application-layer roles. JetBrains' agentic-models position is research-focused (training agents, evaluation envs for coding tasks), not building products with agents.
-- **Emerging: LLM + classical ML blend.** Search-rec-startup (international, Moscow-based, June 2026) hiring senior ML engineer to integrate LLM use cases into search/recommendations pipeline alongside classical ML (content models, candidate generation, ranking). Signal: LLM integration moving into product-level domains beyond standalone chatbots/copilots. Comp: $54K net/yr (mid-range, Russia-based).
-
-### BACKEND, PAYMENT SYSTEMS, & HFT
-- **Payment/Fintech:** Dwelly (UK rental-platform scale-up) recruiting senior backend for payment systems (Node.js/TS, accounting reconciliation). Order Capital (HFT fund, Amsterdam) recruiting senior C++ engineer + research engineer for trading systems and strategy analytics — requires strong algorithms/data structures, 5+ years C++, often ICPC/IMO pedigree.
-- **Early-stage equity-only:** One fintech MVP-stage startup offering equity only for junior backend + ML; no market signal of experienced engineers attracted.
-
-## COMPENSATION RANGES (NET YEARLY USD)
-
-| Role Family | Grade | Market | Range | Notes |
-|---|---|---|---|---|
-| **ML Engineering (Generative AI/Video)** | Senior | Western | $220K–300K | Base $220K–260K + bonus; Cantina remote; practical production optimization |
-| **Core LLM Development (Pretrain/Alignment)** | Senior | Russian | $75K–100K | GigaChat remote; ~50% discount vs. Western generative-AI roles; research-heavy |
-| **Core LLM Development (Research)** | Senior | European | $130K–250K (EUR ≈ $140K–270K USD) | JetBrains (multiple roles); onsite European cities; research-heavy; relocation support offered |
-| **Backend / HFT Systems** | Senior | European | $200K–360K + profit sharing | Order Capital, Amsterdam onsite; requires deep expertise, often competitive-programming background |
-| **On-Chain Data Infrastructure (Founding)** | Lead | European | $100K–140K base + large equity | Hydromancer; Rust, Clickhouse, Redis; real-time low-latency ETL for blockchain markets; hybrid Netherlands |
-| **Backend (Payment Systems)** | Senior | UK/EU | $135K–360K (est.) | Dwelly; remote UK timezone ±2h; no explicit comp posted |
-| **Product Analytics** | Middle | Russian | $26K–42K (net USD) | Russia-based (Moscow/SPB/Perm); hybrid; A/B testing, SQL, Python, some ML context |
-| **Data Engineering / Analytics** | Junior–Middle | Russian | $23K–60K | Russia-based; ETL, warehouse, analytics; Oracle, Airflow, Spark; hybrid; limited upside trajectory |
-
-## WORK ARRANGEMENTS
-
-- **Remote-first:** Cantina (video ML) prefers GMT ±3, accepts global remote; GigaChat (Russian LLM) fully remote; Dwelly (payment backend) remote +/- 2h UK; fintech startups remote TBD
-- **Hybrid/Flexible:** Hydromancer (on-chain infra) prefers in-person onboarding but open to remote; Т-Банк (Russia) hybrid; Альфа-Банк (Russia) hybrid
-- **Onsite/Hybrid:** JetBrains (European cities: London, Berlin, Amsterdam, Munich) onsite; Order Capital (Amsterdam) onsite
-- **Relocation support:** JetBrains offers relocation packages; Order Capital offers "extended relocation package for employee + family"; Hydromancer offers visa sponsorship and relocation support; Cantina minimal (visa/legal help only)
-
-## NOTABLE EMPLOYERS
-
-- **Cantina** (London/NY/SF): Generative AI video, venture-backed, remote-first, higher Western compensation
-- **JetBrains** (Munich HQ, European offices): Profitable 25-year-old developer-tools giant; aggressive ML hiring across training, optimization, agentic models
-- **Cursor** (US-based, Series D $2B valuation): AI code editor; recruiting infra engineers from UK; compensation at OpenAI/Anthropic level; minimal public info on roles
-- **Hydromancer** (Netherlands, on-chain infrastructure): Early-stage, profitable from month 3, on-chain data pipeline specialists; founding-level infrastructure roles with direct product/architecture influence; Rust + low-latency systems focus
-- **Т-Банк** (Russia): High-growth fintech ecosystem; team-efficiency division (pricing, ads, growth) hiring multiple DS/MLE, strong research pedigree (ШАД/ФКН/МФТИ graduates)
-- **Альфа-Банк** (Russia): Cross-border transfer team showing 2–3x YoY growth; hiring junior/middle data engineers and product analysts for analytics-heavy work
-
-## TRENDS
-
-1. **Video generation entering production:** ML engineers with production-optimization skills (distillation, compression, real-time inference) in higher demand; Cantina as test case for this shift.
-2. **LLM training infrastructure consolidating:** JetBrains' multi-role hiring wave suggests established tech vendors building in-house LLM capabilities; GigaChat (Russian competitor) also ramping.
-3. **Blockchain/on-chain infrastructure maturing:** Hydromancer signals transition from pure crypto trading to professional data infrastructure for DeFi/on-chain markets; requires systems-level performance optimization (low-latency, high-throughput ETL) and draws from HFT talent pool. Small but growing segment.
-4. **Geographic comp divergence:** Western generative-AI roles ($220K–300K) vs. Russian core LLM ($75K–100K) showing 2–3x gap; European research (JetBrains, $130K–250K EUR) in middle; blockchain infrastructure ($100K–140K + equity) emerging in middle-to-upper range.
-5. **Product-app LLM roles scarce here:** Applied AI (agents, RAG, tool calling) roles absent, despite candidate demand. Likely: early-stage startups not yet posting in this channel, or product-layer LLM apps see lower hiring velocity than infrastructure/training roles.
-6. **Russian fintech growing (but bounded):** Fast-scaling product/growth teams hiring, but comp ceilings at $60K net even for senior DS roles; attracts regional talent pool, not global competition.
-
-# Shortlist
-
-# SHORTLIST (FITS FOR APPLIED AI DEVELOPER, MIDDLE-TO-SENIOR, LLM APPLICATIONS)
-
-## FITS (6+/10)
-
-- [fit 6/10] **Search-Rec Startup** — senior × ds_ml, $54K net, remote — Remote + product-facing ✓; LLM integration + recommendations/search pipeline. Specialization blend (classical ML + LLM UX layer) vs. pure agents/RAG/tool-calling. Mid-range comp, not upper tier. Russia-based. Posted June 15; verify status. (card job_offers/search-rec-startup/818-ml-rec-senior)
-
-- [fit 6/10] **Cantina** — senior × ds_ml, $280K net (est.), remote — Remote + upper-range comp ✓; but ML-engineering (training/optimization) vs. typical LLM app development. Modern domain (video generation), real-time optimization angle has strong engineering component. Worth exploring despite specialization mismatch. (card job_offers/cantina/802-ml-video)
-
-## PARTIAL FITS (4–5/10)
-
-- [fit 5/10] **JetBrains** — senior × ai_engineering, ~$135K net (130–250K EUR gross), onsite — Strong alignment on agentic models, SFT/RL pipelines, evaluation for code agents; research-heavy infrastructure matches rare applied-AI hiring appetite. Minuses: onsite only (London/Berlin/Amsterdam/Munich, not remote); research-focused, not product-facing; compensation in middle range, not upper tier; relocation required. (card job_offers/jetbrains/798-ml-agents)
-
-## MISMATCH (2–3/10)
-
-- [fit 3/10] **GigaChat** — senior × ds_ml, $75–100K net, remote Russia — Compensation below target range. Specialization on core LLM development (pretraining, RLHF, alignment) vs. product-level LLM applications (agents, RAG, tool calling). Research-oriented; remote but Russia-based. (card job_offers/gigachat/806-dl-eng)
-
-- [fit 2/10] **Т-Банк (направление роста)** — senior × ds_ml, ~$70K net/yr, hybrid Russia — Classical ML for pricing/ads/growth, not LLM applications. Compensation lower than target. Hybrid work in Russia (Moscow/SPB). (card job_offers/t-bank/800-team-efficiency-ds)
-
-- [fit 2/10] **Dwelly** — senior × backend, remote UK — Pure backend (Node.js/TypeScript, payment systems, accounting). No LLM/AI context. Different domain and stack. (card job_offers/dwelly/799-backend-payment)
-
-## OUT OF SCOPE
-
-- [fit 1/10] **Hydromancer** — lead × system_engineering, $120K net + large equity, hybrid Netherlands — Blockchain/on-chain data infrastructure (Hyperliquid, Polymarket), not LLM applications. Rust/Clickhouse/Redis stack, not Python/FastAPI/OpenAI APIs. Founding-level systems role (high-impact but misaligned domain). (card job_offers/hydromancer/815-founding-infra)
-
-- [fit 1/10] **Финтех стартап** — junior × backend, equity only, unknown — No salary, equity-only in unknown startup. Junior level. Fintech domain, not LLM applications. (card job_offers/fintech-startup/u0449bf0e-backend-ml)

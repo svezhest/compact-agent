@@ -22,8 +22,14 @@ def assemble(
     sections: list[Section],
     ctx: ViewContext,
     summary_budget: int,
+    report: bool = False,
 ) -> str:
-    """Render the assembled, budget-cropped report from the active sections."""
+    """Render the assembled, budget-cropped view from the active sections.
+
+    ``report=True`` renders the DELIVERABLE: only sections with ``in_report`` (the model's
+    working view always includes every section)."""
+    if report:
+        sections = [s for s in sections if s.in_report]
     costs = section_costs(store, sections, ctx)
     alloc = allocate_views(summary_budget, costs)
     parts = [s.render_view(store, ctx, alloc.get(s.name, 0)) for s in sections]

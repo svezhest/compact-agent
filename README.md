@@ -36,7 +36,10 @@ uv run compact-agent compact my-chat -p examples/sections -s study -s people:tim
 ```
 
 No API key? `examples/claude_code_gateway.py` exposes a logged-in Claude Code CLI as an
-OpenAI-compatible endpoint (function calling emulated through structured output). A worked
+OpenAI-compatible endpoint (function calling emulated through structured output). It works,
+but it is **not recommended**: every tool-call round is a fresh `claude -p` process that
+re-sends the whole transcript with no prompt cache, so a run costs roughly 10× what the
+same work costs over a direct API. Use it to try the tool, not to process a corpus. A worked
 end-to-end run over job channels is in `examples/jobs-demo/`.
 
 The run checkpoints after every batch (`.compact_progress.json`); rerunning the same

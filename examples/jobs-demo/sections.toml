@@ -1,15 +1,16 @@
-# Run spec for the job-channel demo: three deliverables on top of the typed offer cards.
-#   job_offers  -> one typed card per vacancy (the ground truth the others query)
-#   companies   -> per-employer profile: what they do, their ranges, their projects
-#   market      -> per-direction digest: what is on offer per specialization, the ranges
-#   shortlist   -> the offers that fit profile.md (the candidate)
-# Usage (from the repo root, with the gateway running):
+# Run spec for the job-channel demo. Order = order in the report.
+#   shortlist   -> the offers that fit profile.md (the candidate)          [in the report]
+#   market      -> per-direction digest: offers, grades, ranges, employers  [in the report]
+#   companies   -> per-employer: what they do, ranges seen, projects       [in the report]
+#   job_offers  -> one typed card per vacancy: the ground truth the three above query;
+#                  the model sees the cards, the report does NOT include them (in_report=False)
+# Usage (from the repo root):
 #   cp examples/jobs-demo/sections.toml examples/jobs-demo/profile.md data/<slug>/
 #   COMPACT_PROFILE=data/<slug>/profile.md uv run compact-agent compact <slug> -p examples/sections
 
 plugin_dirs = ["../../examples/sections"]
 
-[sections.job_offers]
-[sections.companies]
-[sections.market]
 [sections.shortlist]
+[sections.market]
+[sections.companies]
+[sections.job_offers]

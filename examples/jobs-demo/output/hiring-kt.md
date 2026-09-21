@@ -1,208 +1,262 @@
-# Job Offers
+# Shortlist
 
-- **trainee backend** @ Ozon Банк — comp n/a — onsite/Санкт-Петербург
-  Стажер-разработчик Golang в банковом ядре Озона
+- [fit 8/10] Neru Health — unknown × fullstack, comp unknown, hybrid (Europe/USA remote) — direct Python product engineering for end-to-end LLM care workflows, with FastAPI/async overlap; catch: grade, pay, and frontend scope are unclear (card job_offers/neru/20250820-neru-fullstack)
+- [fit 7/10] Sberbank — middle × ai_engineering, comp unknown, work mode unknown — product-facing multi-agent GenAI with Python, PyTorch, LangGraph, and production integration; catch: pay and remote policy are unstated (card job_offers/sber/20260921-ml-genai)
+- [fit 6/10] Higgsfield AI — unknown × ai_engineering, comp unknown, work mode unknown — direct AI-product work spanning models, agents, and infrastructure at scale, with equity upside; catch: no role, grade, stack, pay, or concrete work mode is stated (card job_offers/higgsfield/363-ai-engineer)
+- [fit 6/10] Neru Health — senior × backend, comp unknown, hybrid (Europe/USA remote) — senior Python platform work on a secure healthcare product with GCP and Terraform; catch: infra-heavy, with no explicit LLM responsibilities (card job_offers/neru/20250820-neru-senior-backend)
 
-- **trainee** @ YADRO — comp n/a — hybrid/Russia — expired
-  Летняя стажировка 40+ направлений, оплачиваемая, с наставником и образовательной программой, возможность перехода в штат · _posted 2025-04-15_
+# Market
 
-- **trainee business_analytics** @ Авито — comp n/a — hybrid
-  6-месячная стажировка для аналитиков: гибкий график от 25 часов/неделю, удалённо/гибридно/офис, питание и техника · _posted 2025-08-20_
-
-- **trainee backend** @ Авито — comp n/a — hybrid/Russia — likely_closed
-  Оплачиваемая 6-месячная стажировка в Авито · _posted 2025-08-20_
-
-- **trainee frontend** @ Авито — comp n/a — hybrid/Russia — likely_closed
-  Оплачиваемая 6-месячная стажировка в Авито · _posted 2025-08-20_
-
-- **trainee mobile_dev** @ Авито — comp n/a — hybrid/Russia — likely_closed
-  Оплачиваемая 6-месячная стажировка в Авито · _posted 2025-08-20_
-
-- **trainee qa** @ Авито — comp n/a — hybrid/Russia — likely_closed
-  Оплачиваемая 6-месячная стажировка в Авито · _posted 2025-08-20_
-
-- **trainee data_analytics** @ Авито — comp n/a — remote/Russia
-  3-месячная оплачиваемая практика: миграция SQL-кампаний Vertica → Trino · _posted 2025-08-20_
-
-- **senior mobile_dev** @ Ciliz — comp n/a — remote/Санкт-Петербург
-  Android Developer для социального приложения с 100M+ пользователей · _posted 2025-08-20_
-
-- **senior backend** @ Ciliz — comp n/a — remote/Санкт-Петербург
-  Senior Server Developer на Erlang для высоконагруженного проекта · _posted 2025-08-20_
-
-- **junior system_engineering** @ Fast Forward — comp n/a — onsite/Moscow, center — [notable]
-  Junior C++ для высокочастотного трейдинга — ядро системы бэктестинга, требует ICPC/Codeforces 2000+ · _posted 2025-08-20_
-
-- **junior system_engineering** @ Fast Forward — ~$60k±0k/yr — onsite/Moscow, Russia — expired
-  Junior C++ Developer, distributed backtesting core for HFT · _posted 2025-08-20_
-
-- **trainee backend** @ Липтсофт — ~$8k±0k/yr — onsite/Санкт-Петербург — expired
-  Летняя стажировка Backend разработчика на Java/Kotlin, офис СПб · _posted 2025-08-20_
-
-- **trainee frontend** @ Липтсофт — ~$8k±0k/yr — onsite/Санкт-Петербург — expired
-  Летняя стажировка Frontend разработчика на React/TypeScript, офис СПб · _posted 2025-08-20_
-
-- **fullstack** @ Neru Health — comp n/a — hybrid/Boston, San Francisco, Munich, or Remote (Europe/USA) — [notable]
-  Full-stack engineer для AI-платформы 24/7 поддержки пациентов (sleep care) — Python, GCP, LLM workflows · _posted 2025-08-20_
-
-- **senior backend** @ Neru Health — comp n/a — hybrid/Boston, San Francisco, Munich, or Remote (Europe/USA) — [notable]
-  Senior backend/infra engineer для масштабирования secure healthcare platform (PHI) — Python, PostgreSQL, GCP, Terraform · _posted 2025-08-20_
-
-- **middle ds_ml** @ Order Capital — comp n/a — onsite/Dubai, UAE — likely_closed — [notable]
-  ML Infrastructure Engineer (C++/Python) для HFT-команды: инфраструктура ML-пайплайна, Python tools, feature engineering · _posted 2025-08-20_
-
-- **senior system_engineering** @ Order Capital — comp n/a — onsite/Dubai
-  C++ Engineer для HFT-платформы, 5+ лет опыта, торговые системы и риск-менеджмент · _posted 2025-08-20_
-
-- **middle ds_ml** @ Order Capital — comp n/a — onsite/Dubai, UAE
-  Research Engineer for algorithmic trading, Dubai onsite · _posted 2025-08-20_
-
-- **trainee frontend** @ Ozon Банк — comp n/a — onsite/Moscow — expired
-  Оплачиваемая стажировка: Frontend-разработчик в Ozon Bank, офис в Москве, 40 ч/нед · _posted 2025-08-20_
-
-- **trainee qa** @ Ozon Fintech — comp n/a — remote
-  Стажер-инженер по автоматизации тестирования: Python, PyTest, 1С, удаленно · _posted 2025-08-20_
-
-- **senior backend** @ Serokell — comp n/a — remote/remote — [standout]
-  Senior Rust Engineer для Solana DeFi-протоколов: кросс-чейн бриджи, DEX, AMM, лендинговые протоколы · _posted 2025-08-20_
-
-- **backend** @ Serokell — comp n/a — remote/remote — [notable]
-  Rust Software Engineer для нового blockchain проекта, удалённо, гибкий график · _posted 2025-08-20_
-
-- **middle system_engineering** @ SmartShell — ~$22k±0k/yr — hybrid/Санкт-Петербург
-  Middle C++ разработчик на WinForms/Win32 API для Windows desktop-приложения в компании SmartShell · _posted 2025-08-20_
-
-- **trainee system_engineering** @ ООО Цифра — ~$31k±7k/yr — hybrid/Russia
-  C++/Qt/QML разработчик для цифровой обработки изображений: гибрид, 200–320k ₽/мес, интернатура · _posted 2025-08-20_
-
-- **trainee backend** @ Центр Технологий, VK — comp n/a — hybrid/Санкт-Петербург, Россия
-  Оплачиваемая стажировка Java-разработчика в команду высоконагруженных систем VK · _posted 2025-08-20_
-
-- **trainee product_management** @ Авито — comp n/a — hybrid/Russia — expired
-  6-месячная оплачиваемая стажировка для продактов — реальные продуктовые задачи, гибрид/удалёнка, официальное трудоустройство · _posted 2026-02-01_
-
-- **trainee business_analytics** @ Avito — comp n/a — remote/Russia
-  12-месячная программа Avito Analyst Bootcamp: от стажёра до мидла, аналитика или BI, удалённо · _posted 2026-06-04_
-
-- **trainee backend** @ Авито — comp n/a — hybrid/Russia
-  9-месячная оплачиваемая стажировка backend-разработчика (Java/Kotlin) с наставником и возможностью перехода в штат · _posted 2026-06-04_
-
-- **trainee frontend** @ Авито — comp n/a — hybrid/Russia
-  9-месячная оплачиваемая стажировка frontend-разработчика (React/TypeScript) с наставником и возможностью перехода в штат · _posted 2026-06-04_
-
-- **trainee mobile_dev** @ Авито — comp n/a — hybrid/Russia
-  9-месячная оплачиваемая стажировка Android-разработчика (Kotlin) с наставником и возможностью перехода в штат · _posted 2026-06-04_
-
-- **trainee qa** @ Авито — comp n/a — hybrid/Russia
-  9-месячная оплачиваемая стажировка QA-инженера (автоматизация тестирования, Python) с наставником и возможностью перехода в штат · _posted 2026-06-04_
-
-- **middle ds_ml** @ Fast Forward — comp n/a — hybrid/Moscow, Russia — [notable]
-  Deep Learning Researcher for HFT algorithmic development · _posted 2026-06-04_
-
-- **trainee mobile_dev** @ Липтсофт — ~$21k±0k/yr — hybrid/Санкт-Петербург, м. Новочеркасская — likely_closed
-  Летняя стажировка Android разработчика на Kotlin, Compose, Coroutines, 140k ₽/мес, гибрид СПб · _posted 2026-06-04_
-
-- **trainee backend** @ Липтсофт — ~$21k±0k/yr — hybrid/Санкт-Петербург, м. Новочеркасская — likely_closed
-  Летняя стажировка Backend разработчика на Kotlin/Java, 140k ₽/мес, гибрид СПб · _posted 2026-06-04_
-
-- **junior ds_ml** @ Neowise Labs — ~$90k±0k/yr — remote/Zurich, Switzerland — [notable]
-  Quantitative Researcher (HFT), $5–10k/month + bonus, remote/Zurich · _posted 2026-06-04_
-
-- **trainee backend** @ Sberbank / СБЕР — comp n/a — Russia
-  Backend developer-стажёр: Python, FastAPI, async для GigaChat AI-помощников СБЕР · _posted 2026-06-04_
-
-- **middle backend** @ VK (ВКонтакте), Центр Технологий — comp n/a — hybrid/Moscow, Санкт-Петербург, Россия
-  Java-разработчик для высоконагруженных систем VK, гибрид Москва/Питер, полная ставка · _posted 2026-06-04_
-
-- **trainee mobile_dev** @ VK (ВКонтакте), Центр Технологий — comp n/a — hybrid/Санкт-Петербург, Россия
-  Оплачиваемая стажировка Android-разработчика (Kotlin), гибридно из СПб, минимум 20 часов/неделю · _posted 2026-06-04_
-
-- **trainee product_management** @ VK (ВКонтакте), Центр Технологий — comp n/a — hybrid/Moscow, Санкт-Петербург, Россия
-  Стажировка продуктового аналитика в VK, гибрид Москва/Питер, полная ставка · _posted 2026-06-04_
-
-- **trainee system_engineering** @ VK (ВКонтакте) — comp n/a — hybrid/Санкт-Петербург — [notable]
-  C++ developer internship, KPHP team (VK backend compiler/runtime, ~2M RPS), C++20, Rust, open-source · _posted 2026-06-04_
-
-- **trainee data_analytics** @ Яндекс — comp n/a — onsite/Moscow, Russia — expired
-  Летняя школа аналитиков-разработчиков: 1.5 месяца лекций и проектов в москвовском офисе · _posted 2026-06-04_
-
-- **trainee backend** @ Яндекс — comp n/a — onsite/Moscow, Russia — expired
-  Летняя школа бэкенд-разработки: Java и C++, 1.5 месяца лекций и проектов в москвовском офисе · _posted 2026-06-04_
-
-- **trainee frontend** @ Яндекс — comp n/a — onsite/Moscow, Russia — expired
-  Летняя школа разработки интерфейсов: фронтенд и фулстек, 1.5 месяца лекций и проектов в москвовском офисе · _posted 2026-06-04_
-
-- **trainee mobile_dev** @ Яндекс — comp n/a — onsite/Moscow, Russia — expired
-  Летняя школа мобильной разработки: iOS и Android, 1.5 месяца лекций и проектов в москвовском офисе · _posted 2026-06-04_
-
-- **trainee ds_ml** @ Авито — comp n/a — hybrid/Russia
-  6-месячная оплачиваемая стажировка для Data Scientist: работа с данными, статистика, ML, наставничество · _posted 2026-09-21_
-
-- **senior system_engineering** @ HFT Fund (name withheld) — ~$100k±0k/yr — remote/Belgrade, Serbia — [notable]
-  Senior C++ Engineer for low-latency HFT trading infrastructure, remote or Belgrade office · _posted 2026-09-21_
-
-- **junior** @ Revolut — comp n/a — onsite/Dubai, UAE — expired
-  12-month paid graduate programme; visa, flight, 30 days accommodation; relocation to Dubai · _posted 2026-09-21_
-
-- **trainee** @ Revolut — comp n/a — onsite/Dubai, UAE — expired
-  8–10 weeks paid summer internship; visa, flight, accommodation covered; relocation to Dubai · _posted 2026-09-21_
-
-- **middle ai_engineering** @ Sberbank / СБЕР — comp n/a — unknown — [notable]
-  Multi-agent GenAI platform engineer: LLM-based marketing automation, Sberbank, 3+ years ML/Python · _posted 2026-09-21_
-
-- **trainee ds_ml** @ Sberbank / СБЕР — comp n/a — Moscow, Russia
-  Risk Research internship: AI systems for risk analysis, Kristofari supercomputer training · _posted 2026-09-21_
-
-- **trainee backend** @ Serokell — comp n/a — remote/remote
-  Haskell internship: build unified multi-network messaging client · _posted 2026-09-21_
-
-- **junior system_engineering** @ SoftDev — ~$18k±0k/yr — hybrid/Санкт-Петербург, Россия
-  Junior C++ САПР-инженер, гибрид Санкт-Петербург · _posted 2026-09-21_
-
-- **trainee frontend** @ Центр Технологий, VK — comp n/a — remote/Санкт-Петербург, Россия
-  Оплачиваемая стажировка frontend-разработчика в Центр Технологий VK, React/TypeScript, удаленно из СПб · _posted 2026-09-21_
-
-- **trainee mobile_dev** @ VK (Центр Технологий) — comp n/a — hybrid/Санкт-Петербург, Россия
-  Стажер iOS-разработчик в Центр Технологий VK, гибрид СПб · _posted 2026-09-21_
-
-- **trainee backend** @ VK (Центр Технологий) — comp n/a — hybrid/Санкт-Петербург, Россия
-  Стажер java-разработчик в Центр Технологий VK, гибрид СПб · _posted 2026-09-21_
-
-- **junior ds_ml** @ Яндекс, Alice AI LLM-Search — comp n/a — Moscow, Russia — [notable]
-  LLM alignment and inference optimization intern at Yandex Alice AI (Нейро); RL approaches, reward modeling, quantization/distillation for chat search · _posted 2026-09-21_
+- **ai_engineering (2):** middle/unknown; compensation unstated; work mode unknown; Higgsfield AI, Sber.
+- **backend (15):** trainee/senior/unknown; disclosed compensation $8.4–21k net/year; remote, hybrid, onsite and unknown; Avito, Ciliz, Lipt-soft, Neru Health, Ozon Bank, Sber, Serokell, VK, Yandex.
+- **business_analytics (2):** trainee; compensation unstated; remote/hybrid; Avito.
+- **data_analytics (2):** trainee; compensation unstated; remote/onsite; Avito, Yandex.
+- **ds_ml (7):** trainee/junior/middle; disclosed compensation $90k net/year; remote, hybrid, onsite and unknown; Avito, Fast Forward, Neowise, Order Capital, Sber, Yandex.
+- **frontend (6):** trainee; disclosed compensation $8.4k net/year; hybrid, remote and onsite; Avito, Lipt-soft, Ozon Bank, VK, Yandex.
+- **fullstack (1):** unknown; compensation unstated; hybrid; Neru Health.
+- **mobile_dev (7):** trainee/senior; disclosed compensation $21k net/year; remote, hybrid and onsite; Avito, Ciliz, Lipt-soft, VK, Yandex.
+- **other (3):** trainee/junior; compensation unstated; hybrid/onsite; Revolut, YADRO.
+- **product_management (2):** trainee; compensation unstated; hybrid; Avito, VK.
+- **qa (3):** trainee; compensation unstated; hybrid/remote; Avito, Ozon Fintech.
+- **system_engineering (8):** trainee/junior/middle/senior; disclosed compensation $18–100k net/year; remote, hybrid and onsite; Fast Forward, HFT Fund, Order Capital, SmartShell, SoftDev, ООО Цифра, VK.
+- 58 cards span 12 directions; backend is largest, followed by system engineering and DS/ML, with entry-level roles dominating.
+- Disclosed pay is sparse—$8.4–100k net/year—and concentrated in internships and C++/quant roles; most cards state no compensation.
+- Remote options are strongest in backend, DS/ML and system engineering, with additional remote frontend, mobile and QA roles; Russian early-career programmes skew hybrid or onsite.
 
 # Companies
 
-_[… 14 older item(s) trimmed to fit context …]_
+## avito
+domain: avito.ru · stage: public · hq: Russia · remote policy: hybrid · size est: 1000+ · aka: Avito
+Авито — крупнейшая русскоязычная платформа классифайд-объявлений, аналог Craigslist. Ежемесячно привлекает 53,5 млн авторизованных пользователей; на платформе совершается более 10 сделок в секунду.
+
+Компания предлагает гибкую политику работы (удалённо, гибридно, офис) и развивает кадровые программы — 80% стажёров остаются в организации на постоянные должности, что указывает на эффективность подготовки и благоприятную культуру.
+
+## ciliz
+domain: game-dev, social apps · stage: startup-growth · hq: Санкт-Петербург · remote policy: remote · size est: 50-100
+Ciliz — разработчик игр и приложений для социальных сетей и мобильных устройств. Работает с 2006 года, стабильно растёт. В их проекты ежедневно играют более 1 млн пользователей, а флагманское приложение (социальная сеть знакомств) имеет аудиторию 100+ млн пользователей.
+
+## КУЛЬТУРА И УСЛОВИЯ
+
+- Аккредитованная IT-компания с официальным оформлением
+- График 5/2 с гибким началом рабочего дня (8:00–11:00 по Москве)
+- Культура открытости, прозрачности и здравого смысла
+- Полностью удалённое сотрудничество доступно
+- Современное оборудование (железо)
+- ДМС со стоматологией
+- Курсы английского языка
+- Компенсация программ обучения и развития
+- Питание в офисе
+
+## НАПРАВЛЕНИЯ
+
+- Мобильная разработка (Android, iOS)
+- Серверная часть высоконагруженных проектов (Erlang)
+- Социальные сети и онлайн-платежи
+
+## fast-forward
+domain: fastforward.pro · stage: startup-growth · hq: Moscow, Russia · remote policy: onsite · size est: 50-100 · aka: Fast Forward
+## FAST FORWARD — ВЫСОКОЧАСТОТНЫЙ ТРЕЙДИНГ
+
+Швейцарско-российская компания, специализирующаяся на разработке алгоритмов для высокочастотного трейдинга (HFT). Разрабатывает собственные торговые системы и инструменты, совершающие сотни тысяч сделок в день на биржах по всему миру.
+
+## КУЛЬТУРА И КОМАНДА
+
+**Инженерное совершенство** — команда состоит из выпускников МГУ, МФТИ, РЭШ; среди сотрудников несколько Kaggle Grandmaster/Master, включая топ-3 мировых специалистов. Высокие стандарты кода и архитектуры.
+
+**Интенсивная работа** — HFT требует глубокого понимания оптимизации, системного программирования, микросекундных требований. Часто привлекают людей с подтверждённой компетенцией в алгоритмах (ICPC, Codeforces).
+
+**Гибкий график**, мощное оборудование, кофе и закуски — стандарт.
+
+## НАПРАВЛЕНИЯ
+
+- Разработка торговых алгоритмов
+- Системы бэктестинга и симуляции
+- Распределённые системы для обработки market data
+- C++ / Rust разработка критичного по производительности ПО
+
+## fastforward
+domain: fastforward.pro · stage: startup-growth · hq: Moscow, Russia · remote policy: onsite · size est: 50-100 · aka: Fast Forward
+Fast Forward — компания, специализирующаяся на высокочастотной торговле (HFT). Разрабатывает торговые алгоритмы для биржевых операций по всему миру, совершая сотни тысяч сделок в день на различных финансовых рынках.
+
+## КОМАНДА И РЕПУТАЦИЯ
+
+Известна исключительно сильной технической командой. В штате несколько Kaggle Grandmasters, включая троих из топ-инженеров Kaggle мира (лучших по глобальному рейтингу), а также выпускников ведущих технических вузов (МГУ, МФТИ, РЭШ). Культура компании ориентирована на инженерное мастерство, высочайшие стандарты кода и архитектуры.
+
+## НАПРАВЛЕНИЯ РАБОТЫ
+
+Основной фокус — разработка на Rust и C++ для высокопроизводительных систем бэктестинга, торговых двигателей и систем обработки данных финансовых рынков.
+
+## РАБОТА И УСЛОВИЯ
+
+Офис в центре Москвы. Гибкий график. Предоставляет мощную технику (рабочие станции, ноутбуки). Оплата в USD или RUB с прозрачной системой бонусов. Компания жёстко селектирует кандидатов по техническому уровню — требует доказанного мастерства в конкурентном программировании (ICPC, Codeforces) и коммерческого опыта, даже для позиций на junior уровне.
+
+Известна программой referral-бонусов за успешные рекомендации кандидатов.
+
+## lipt-soft
+domain: lipt-soft.ru · stage: startup-growth · hq: Санкт-Петербург · remote policy: onsite · size est: 100-500 · aka: Липтсофт
+Липтсофт — IT-компания, разрабатывающая программные решения. Базируется в Санкт-Петербурге (офис у метро Новочеркасская). Проводит структурированные летние стажировки для молодых разработчиков с фокусом на современные стеки (React/TypeScript для frontend, Java/Kotlin для backend). Известна наставническим подходом, предоставлением реальных проектов стажерам и возможностью перехода в штат по результатам программы.
+
+## neru
+domain: neru-health.io · stage: startup-seed · hq: Boston, MA, USA · remote policy: hybrid · size est: 30 · aka: Neru Health, Neru AI
+Neru — стартап в сфере цифрового здравоохранения и AI, разрабатывающий платформу для оказания круглосуточной поддержки пациентам с хроническими заболеваниями, начиная со сна. Компания недавно привлекла oversubscribed seed-раунд при поддержке CDTM Fund, senior tech execs из Netflix и Google, а также leading digital health VCs.
+
+## ПРОДУКТ И РОСТ
+
+Запущена национально в США с крупной sleep clinic; сейчас поддерживает 3,000+ активных пациентов с целью расширения до 30,000. Платформа использует AI для управления care journeys пациентов в режиме 24/7.
+
+## СТЕК И ИНЖЕНЕРИЯ
+
+- Backend: Python, PostgreSQL
+- Infrastructure: GCP, Terraform
+- AI: Leaping AI integration, LLM-driven workflows
+- Архитектура: secure, HIPAA-compliant systems для обработки PHI (protected health information)
+
+## РЕЖИМ РАБОТЫ И КУЛЬТУРА
+
+- Работа возможна в офисе (Boston, SF, Munich) или удалённо (из Europe/USA)
+- Team ориентирована на healthcare impact и strong backend/LLM expertise
+- Seed-stage динамика: быстрая итерация, реальная ответственность
+
+## order-capital
+domain: order-capital.ae · stage: startup-growth · hq: Dubai, UAE · remote policy: onsite · size est: 50-150 · aka: Order Capital Group, Order Capital
+Order Capital — HFT-фонд (hedge fund для высокочастотной торговли), основанный победителем ICPC. Специализируется на разработке ПО и алгоритмах для автоматизированной торговли на финансовых рынках по всему миру. Совершает сотни тысяч сделок в день. Компания использует современные технологии и данные для принятия рациональных решений в количественной торговле (quantitative trading).
+
+## НАПРАВЛЕНИЯ
+
+- Высокочастотная торговля (HFT)
+- Разработка торговых алгоритмов и систем
+- Research Engineering
+- C++ разработка для критичного по производительности ПО
+
+## КУЛЬТУРА И КОМАНДА
+
+Ориентирована на инженерные таланты с опытом высокоуровневого алгоритмического мышления (Codeforces, олимпиады, ICPC). Конкурентная среда, требует доказанного мастерства и понимания ML-инфраструктуры.
+
+## УСЛОВИЯ РАБОТЫ
+
+- Офис в Дубае (ОАЭ), полностью офисный режим (onsite)
+- ДМС, обеды, спорт, обучение и другие бенефиты
+- Крутые тимбилдинги
+- Расширенный релокационный пакет для кандидатов и их семей
+
+## ЛОКАЦИЯ
+
+Штаб-квартира в Дубае (ОАЭ).
+
+## ozon
+domain: fintech, e-commerce · stage: public · hq: Moscow, Russia · remote policy: onsite · size est: large · aka: Ozon Банк, Ozon Bank, Ozon
+Крупная российская компания электронной коммерции и финтех-услуг. Ozon Fintech (подразделение Ozon Банк) занимается разработкой финансовых сервисов. Команды используют современный стек: Python, API тестирование, CI/CD, code review практики. Компания нанимает на различные уровни, включая стажерские позиции в QA.
+
+## OZON BANK
+
+Финтех-подразделение, разрабатывающее финансовые продукты для потребителей и продавцов Ozon. Собственная микросервисная архитектура включает процессинг платежей, учётное ядро, финансовый мониторинг, интеграцию с СБП. Продукты: карты Ozon с кешбэком, рассрочка/BNPL, корпоративный банк, финансирование для продавцов платформы.
+
+## ozon-bank
+domain: ozon.ru · stage: startup-growth · hq: Санкт-Петербург · remote policy: onsite · aka: Ozon Банк
+Финтех-подразделение Озона, специализирующееся на разработке и поддержке банкового ядра. Ориентирована на обучение молодых специалистов в условиях реальной production-среде. Требует офисного присутствия в СПб; предлагает гибкий график.
+
+## smartshell
+domain: smartshell.pro · stage: startup-growth · hq: Санкт-Петербург · remote policy: hybrid · size est: 50-100
+SmartShell — ведущий разработчик ПО для компьютерных клубов и киберарен. Аккредитованная IT-компания с уникальным продуктом и стабильной позицией на рынке интерактивных развлечений.
+
+## КУЛЬТУРА И УСЛОВИЯ
+
+- Аккредитованная IT-компания с уникальным продуктом
+- Офис в центре Санкт-Петербурга
+- Гибридный режим работы с гибким графиком
+- ДМС через 3 месяца работы
+- Официальное трудоустройство
+- Дружная команда опытных инженеров
+
+## НАПРАВЛЕНИЯ
+
+- Разработка Windows desktop-приложений
+- ПО для компьютерных клубов и киберарен
+- Интеграция с внутренними API и системами
+
+## ТЕХНОЛОГИЧЕСКИЙ СТЕК
+
+- C++17/20, STL
+- WinForms, Win32 API
+- Visual Studio
+- HTTP(S), JSON, WebSocket
+- Git, CI/CD, CMake
+
+## ПРОЦЕССЫ
+
+- Code review и pull request практики
+- Задачи в трекере
+- Прозрачная разработка
+- Архитектурные обсуждения
+
+## tsifra
+stage: startup-growth · hq: Russia · remote policy: hybrid
+ООО Цифра — российская компания, занимающаяся разработкой систем цифровой обработки изображений и алгоритмов. Компания нанимает на позиции разработчиков C++/Qt для работы над R&D проектами. Предлагает гибридный режим работы и готова взаимодействовать с интернами на стажировочных программах.
+
+## vk
+domain: vk.com · stage: public · hq: Россия · remote policy: hybrid · size est: 5000+ · aka: Центр Технологий
+## VK — КРУПНЕЙШАЯ РОССИЙСКАЯ ТЕХНОЛОГИЧЕСКАЯ КОМПАНИЯ
+
+**VK** (ВКонтакте) — ведущая российская IT-компания, работающая в сегментах социальных сетей, e-commerce, финтеха и технологической инфраструктуры. Компания обслуживает свыше 95% аудитории русскоязычного интернета через более 200 собственных технологичных продуктов.
+
+## СТРУКТУРА И КОМАНДЫ
+
+### ЦЕНТР ТЕХНОЛОГИЙ (CT)
+
+Подразделение, ответственное за **IT-инфраструктуру всех продуктов VK**:
+- Бесперебойная работа высоконагруженных систем и микросервисов
+- Сеть передачи данных (CDN, маршрутизация)
+- Развитие сети центров обработки данных
+- Сервисы поддержки для сотрудников
+
+**Технологический стек:** Java, C++, Go, Python; системы обработки рекомендаций, ML-интеграция, микросервисная архитектура.
+
+## КУЛЬТУРА И УСЛОВИЯ
+
+- **Мастерство:** работа с ведущими экспертами IT-индустрии, высокие стандарты инженерии
+- **Масштаб:** 200+ продуктов, миллионы пользователей, высоконагруженные системы
+- **Развитие:** конференции, семинары, тренинги, внутренние митапы
+- **Инфраструктура:** современная техника, мониторы, специализированное оборудование
+- **Благополучие:** фреш-бары, спортивные программы, компенсация питания, культурные мероприятия (VK Fest, тимбилдинги)
+- **Офисы:** Москва (5 мин от метро, современный бизнес-центр), Санкт-Петербург (историческое здание в центре города)
+
+## НАЙМ И КАРЬЕРА
+
+- Активно нанимает на **стажировочные программы** для молодых разработчиков
+- Условия стажировки: полная занятость, оплата, наставничество, реальные проекты
+- Гибридный режим работы доступен как для стажеров, так и для опытных специалистов
+- Компания известна качественной подготовкой молодых кадров и возможностью перехода в штат
+
+## yadro
+stage: public · hq: Russia · remote policy: hybrid · size est: 5000+ · aka: YADRO Импульс
+Крупная российская компания, занимающаяся разработкой вычислительных платформ, систем обработки и хранения данных, телекоммуникационного и сетевого оборудования, персональных и умных устройств. Активно нанимает специалистов на различные уровни.
+
+## НАБОР И КУЛЬТУРА
+
+YADRO Импульс — программа летних стажировок с наставничеством и образовательными модулями. Охватывает 40+ направлений (разработка ПО, железо, безопасность, финансы, продажи, дизайн). Предполагает реальную работу с возможностью перехода в штат. Гибкий формат: офис или удаленно.
+
+## hft-belgrade
+stage: startup-growth · hq: Belgrade, Serbia · remote policy: remote · size est: 15-30
+Small Belgrade-based HFT (high-frequency trading) fund specializing in algorithmic trading across global financial markets. Company name not disclosed in public hiring materials; identifies itself through hiring contact @ue1a085df on Telegram.
+
+## КУЛЬТУРА И КОМАНДА
+
+Strong emphasis on technical excellence and olympiad/competitive programming background. Team is highly selective and values algorithmic thinking. Described as a cohesive infrastructure team with depth in systems optimization and low-latency design. Competitive environment with clear performance incentives via bonus structures.
+
+## ОПЕРАЦИИ
+
+Fully distributed with remote work available; maintains office presence in Belgrade center. Small core team (~15–30 estimated) suggests flat structure and high autonomy. Clear career progression outlined for tech leads in infrastructure roles.
+
+## КОМПЕНСАЦИЯ И НАЙМ
+
+Transparent salary structure: base $4–8k/month + performance bonuses to 100% of salary (total potential $8–16k/month or $96–192k yearly at maximum). Hiring focuses on proven competitive programming / olympiad backgrounds; requires strong production systems experience even for senior roles.
 
 ## higgsfield
 domain: higgsfield.ai · stage: startup-growth · hq: unknown · remote policy: remote · size est: 30-50 · aka: Higgsfield AI
-## О КОМПАНИИ
-
-Highgsfield AI — быстрорастущий стартап в сфере AI/LLM-продуктов. Компания прошла этап seed и достигла product-market fit с реальной выручкой; характеризуется как место, где «ещё не приняты все главные решения», что означает высокий потенциал для impact и growth equity для сотрудников.
-
-## КУЛЬТУРА И КОМАНДНЫЙ СОСТАВ
-
-**Целевая аудитория:** олимпиадники и competitive programming enthusiasts. Компания подчеркивает, что привлекает людей, которые мотивированы моментом, когда «правильного ответа ещё нет» — сложные задачи, неопределённость, высокое давление в позитивном смысле.
-
-**Опыт сотрудников:** в команде есть выпускники топовых программ (КТ/ИТМО), финалисты ICPC. Примечание: сотрудник, описывающий компанию, окончил КТ ИТМО в 2025 году и был финалистом ICPC.
-
-**Рабочий процесс:** быстрые спринты, нетривиальные задачи, высокое давление (в правильном смысле); позиционируется как отличие от типовых «очередного AI tool» компаний.
-
-## КОМПЕНСАЦИЯ И УСЛОВИЯ
-
-- Полностью удалённый формат (подтверждается контекстом)
-- Возможный путь на L-1 visa в США для заинтересованных кандидатов
-- Equity upside (компания предлагает «реальный upside через equity» для сотрудников)
-- Конкретная компенсация не указана в доступных данных
-
-## КОНТАКТЫ ДЛЯ СВЯЗИ
-
-Рекрутинг через Telegram: @u658db3c7
-
-## ПРИМЕЧАНИЕ
-
-Вакансии упоминаются, но конкретные детали (должность, требования, локация, зарплата) не предоставлены в открытом виде. Требуется прямая связь через Telegram для получения полной информации о позициях.
+Higgsfield AI builds AI/LLM products spanning models, agents, and infrastructure at consumer scale; the company says it has product-market fit and revenue.
+It targets competitive programmers and engineers comfortable with fast sprints, ambiguity, nontrivial problems, and high pressure.
+The company advertises equity upside and a possible longer-term L-1 visa path to the US; no compensation range is stated.
+Hiring appears remote-first, but the post gives no concrete role, grade, stack, or location.
 
 ## liptsofт
 domain: lipt-soft.ru · stage: startup-growth · hq: Санкт-Петербург, Россия · remote policy: hybrid · size est: 50-100 · aka: Lipt-soft, Липтсофт
@@ -399,124 +453,3 @@ domain: yandex.ru · stage: public · hq: Moscow, Russia · remote policy: onsit
 ## ОФИСЫ
 
 Основные офисы в Москве и Санкт-Петербурге.
-
-# Market
-
-## ОБЗОР РЫНКА ВАКАНСИЙ
-
-### КЛЮЧЕВЫЕ ТРЕНДЫ И ВОСТРЕБОВАННЫЕ РОЛИ
-
-Российский рынок IT активен в трёх основных направлениях:
-
-1. **Финтех и высоконагруженные системы** — Ozon Bank, VK (Центр Технологий), Авито, Sberbank (GigaChat/LLM)
-2. **Высокочастотный трейдинг (HFT)** — Fast Forward (Москва), Order Capital (Дубай), Neowise Labs (Цюрих, fully remote)
-3. **Блокчейн/DeFi и AI-платформы** — Serokell (удалёнка, Rust/Solana), Neru Health (США/Европа, Python/LLM)
-
-### ПОЗИЦИИ И КОМПЕНСАЦИЯ ПО УРОВНЮ
-
-**Стажеры (trainee, 0–1 года опыта)**
-- Роли: Backend (Java/Kotlin), Frontend (React/TypeScript), QA (Python/PyTest), мобильная разработка, системная разработка (C++/Qt), компилеры и рантайм (C++/Rust, как в VK KPHP)
-- Компенсация: ~$8–16k net yearly (когда указана); Липтсофт 140 000 ₽/мес (~$16k/year), ООО Цифра 200–320 k ₽/мес (200–280k net yearly при полной занятости); VK KPHP — не указана (стандартно оплачиваемая стажировка); Авито 2026 (9 месяцев) — не указана
-- Программы: 3–6 месяцев (Авито: 9 месяцев), структурированное наставничество, высокая вероятность перехода в штат (Авито: 80% стажеров остаются). Авито 2026: гибкий формат (от 25 ч/нед, офис/гибрид/удалёнка на выбор), питание, ментор, психологическая и юридическая поддержка
-- Работодатели: Авито (9-месячная программа 2026: Frontend/Backend/QA/Android), Липтсофт, Ozon (Bank & Fintech), VK (включая KPHP team — компилятор/рантайм для бэкенда vk.com), YADRO, ООО Цифра
-
-**Junior (1–3 года опыта)**
-- C++ для HFT (Fast Forward): требуется ICPC/Codeforces 2000+, бэктестинг; ~$60k net yearly
-- Quant Researcher (Neowise Labs, Цюрих, fully remote): C++/Python, бэк в математике/олимпиадах; $5–10k/month base + бонусы (~$60–120k yearly); требуется диплом топ-вуза (ВШЭ/ИТМО/МФТИ) или ШАД
-- C++ для САПР (SoftDev, Санкт-Петербург): CAD приложения, Linux/Windows, hybrid; ~$18k net yearly (100–200k ₽/мес)
-- Java backend (VK, рекомендательные системы): масштабирование, ML-интеграция
-- Статус: конкурентный (требуется доказанная компетенция в алгоритмах)
-
-**Middle (3–5 лет опыта)**
-- C++ (Windows/desktop): SmartShell (WinForms, Win32 API), ~$22k net yearly; ООО Цифра (Qt/QML, image processing)
-- ML Infrastructure Engineer (Order Capital, Дубай): Python + C++, feature engineering, data pipelines; не указана компенсация, но ожидается senior-level
-- Backend Java (VK, рекомендательные системы)
-
-**Senior (5+ лет опыта)**
-- Backend Erlang (Ciliz, удалёнка): высоконагруженные социальные сервисы, MongoDB/PostgreSQL/Redis; компенсация не указана
-- C++ (Order Capital, Дубай): системы торговли, риск-менеджмент, многопоточность
-- Backend Python/PostgreSQL/GCP (Neru Health): масштабирование, HIPAA-compliance, healthcare AI
-- Rust/Solana DeFi (Serokell, fully remote): смарт-контракты, протоколы DEX/AMM; компенсация не указана, но отмечена как "comfortable level"
-- Компенсация senior-ролей: редко публикуется; ожидается $50k–150k+ net yearly в зависимости от района (HFT обычно выше)
-
-### КОМПЕНСАЦИЯ: СВОДКА ПО ДАННЫМ
-
-| Уровень | Роль | Диапазон (net yearly USD) | Примеры |
-|---------|------|---------------------------|----------|
-| Trainee | Backend/Frontend | $8–10k | Липтсофт: $8.4k; ООО Цифра: $31k (исходя из 200–320k ₽/мес) |
-| Junior | C++ (HFT) | ~$60k | Fast Forward: $60k ± 0 (likely higher with bonus); Neowise: ~$60–120k (base + bonus) |
-| Middle | C++ (Windows) | ~$22k | SmartShell: $22k ± $4k |
-| Senior | Erlang backend, C++ trading, Python backend | $50k–$150k+ | Не опубликована; ожидается выше junior/middle |
-
-**Замечание:** компенсация часто складывается из базовой зарплаты + бонусы и опционы (особенно в HFT и seed-stage стартапах). Variance часто расширяется из-за неполной информации о структуре пакета.
-
-### ТЕХНОЛОГИЧЕСКИЙ СТЕК: АКТУАЛЬНОСТЬ
-
-**Бэкенд**
-- Java, Kotlin (VK, Avito, Ozon): Spring Boot, микросервисы, рекомендательные системы
-- Python (Neru Health, Ozon Fintech): FastAPI, asyncio, PostgreSQL, GCP, LLM workflows
-- Erlang (Ciliz): высоконагруженные системы, e-commerce, платежи
-- C++ (Fast Forward, Order Capital, SmartShell, ООО Цифра): HFT, системы бэктестинга, desktop-приложения
-
-**Фронтенд**
-- React, TypeScript (Liptsofт, Avito)
-- Vue.JS, TypeScript, Svelte (Ozon Bank)
-
-**QA / Тестирование**
-- Python (PyTest, Requests, Allure, Vanessa) — стандарт в финтех
-- CI/CD интеграция обязательна
-
-**Мобильная разработка**
-- Android: Kotlin, RXJava, LibGDX, Jetpack Compose (Ciliz, senior-уровень)
-
-**AI и новые технологии**
-- LLM workflows (Neru Health, Python + GCP + Terraform; Sberbank/GigaChat, Python + FastAPI)
-- Rust/Blockchain (Serokell, DeFi-протоколы, Solana)
-
-### ГЕОГРАФИЯ, РЕЖИМ РАБОТЫ И МОБИЛЬНОСТЬ
-
-**Локации кластеров**
-- **Москва**: Fast Forward (HFT, onsite), VK (hybrid), Ozon Bank (onsite/hybrid)
-- **Санкт-Петербург**: Liptsofт (onsite), Ozon Bank, Ciliz (remote-friendly), SmartShell (hybrid), ООО Цифра (hybrid), VK (hybrid)
-- **Белград (Сербия)**: HFT Fund (fully remote, low-latency trading infrastructure)
-- **Цюрих (Швейцария)**: Neowise Labs (fully remote, HFT/quant research)
-- **Дубай (ОАЭ)**: Order Capital (onsite, relocation package)
-- **Удалённо (EU/USA)**: Serokell (fully remote, Rust/blockchain), Neru Health (hybrid, Boston/SF/Munich/remote)
-- **Гибридные и удалённые**: Avito, Ciliz (все позиции), Ozon Fintech QA (remote)
-
-**Режим работы по типу компании**
-- **Стартапы** (seed/growth): Neru Health (гибридный, remote-friendly для EU/USA), Serokell (fully remote), Ciliz (fully remote option), Neowise Labs (fully remote)
-- **Крупные компании** (public/fintech): Avito, VK, Ozon — гибридные; Fast Forward — onsite Москва; Order Capital — onsite Дубай
-- **Небольшие компании** (50–100 чел): SmartShell, Liptsofт, ООО Цифра — гибрид или onsite
-
-**Релокация**
-- Order Capital (Дубай): предлагает extended relocation package для кандидатов и их семей
-- Другие компании: преимущественно без релокации; ожидается локальное присутствие или готовность переезда
-
-### КАРЬЕРНЫЕ ПЕРСПЕКТИВЫ И НАЙМ
-
-- **Переход в штат**: Авито (80%), Liptsofт, YADRO структурированно предлагают переход стажеров в full-time
-- **Внутренние программы развития**: конференции, семинары, код-ревью, техническое наставничество (VK, Avito, Ozon, Serokell)
-- **Конкурентивность**: HFT (Fast Forward, Order Capital, Neowise) требует доказанной компетенции в алгоритмах (ICPC, Codeforces, олимпиады); AI-платформы (Neru) ищут backend и LLM опыт
-- **Бонусы и стимулы**: Fast Forward предлагает referral-бонусы за успешные рекомендации; HFT-компании обычно включают прозрачные бонусные системы
-
-### ПРИМЕЧАНИЯ О РЫНКЕ
-
-- Российский сегмент остаётся активным в финтех, e-commerce и гейм-индустрии; западные инвесторы (Neru) вкладывают в healthcare AI в России и США
-- Удалённая работа доступна даже на junior-уровне; seed-stage и полностью удалённые компании (Serokell, Ciliz, Neru, Neowise) предлагают наибольшую гибкость
-- **Спрос на LLM-ориентированных инженеров растёт** (Neru, Ozon Fintech, Sberbank, Яндекс); крупные российские финтех-компании активно развивают многоагентные системы и генеративные платформы (Sberbank: маркетинг-автоматизация на базе GenAI); **Яндекс Alice AI** ищет стажеров для разработки LLM-alignment, RL-подходов и оптимизации инференса для поиска в чате
-- HFT-сегмент остаётся высокобарьерным и высокооплачиваемым, требует интенсивной подготовки; Neowise Labs показывает европейское расширение HFT-индустрии с полностью удалённым форматом
-- Структурированные стажировочные программы с 80%+ переходом в штат делают Авито и аналогичные платформы привлекательными точками входа
-- **Компенсационные разницы:** западные стартапы (Neru, Serokell) и HFT-фонды предлагают $80–150k+ для senior-ролей; российские крупные компании (Sberbank, VK) — $50–100k в зависимости от роли; работа в РФ часто предполагает onsite/hybrid требования, что снижает привлекательность для кандидатов, ищущих полностью удалённый формат в EU/USA
-
-# Shortlist
-
-- [fit 7/10] Neru Health — fullstack × unknown, comp tbd, hybrid (USA/Europe remote) — explicit AI workflows for patient care (product-facing), Python + GCP, seed-stage with real traction (3K→30K patients); catch: no grade stated in posting (card job_offers/neru/20250820-neru-fullstack)
-- [fit 6/10] Neru Health — senior backend, comp tbd, hybrid (USA/Europe remote) — senior Python backend to scale secure healthcare platform (PHI), GCP + Terraform; LLM experience welcomed; infra-focused rather than product LLM engineering (card job_offers/neru/20250820-neru-senior-backend)
-
-- [fit 6/10] Sberbank — middle × ai_engineering, comp unknown, work mode unknown — Multi-agent GenAI platform for marketing automation (product-facing LLM engineering), Python + PyTorch + LangGraph stack perfect match; catch: work mode likely onsite/Russia-based (candidate wants remote/EU), compensation not stated (mid-range RU fintech typical) (card job_offers/sber/20260921-ml-genai)
-
----
-
-**NOT ON SHORTLIST:**
-- Sberbank Backend developer-стажёр (20260604-backend-trainee): trainee-level (below target middle–senior), compensation unstated (typically low for internship), work mode unknown (Sberbank usually requires onsite/hybrid), contact only Telegram. Stack matches (Python/FastAPI/LLM) but grade & comp don't fit profile.
