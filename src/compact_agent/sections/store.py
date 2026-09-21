@@ -17,11 +17,15 @@ from __future__ import annotations
 
 import json
 import re
+from contextvars import ContextVar
 from dataclasses import dataclass, field
 
 from pydantic import ValidationError
 
 from .base import Section
+
+# Per-asyncio-task 'files seen this run' (each task copies the context at creation).
+_SEEN: ContextVar[set[str] | None] = ContextVar("vstore_seen", default=None)
 
 _HEADER_LINE = re.compile(r"^([ \t]*#{1,6}[ \t]*)(\S.*)$")
 _FENCE = re.compile(r"^[ \t]*```")
@@ -90,8 +94,9 @@ class VStore:
     now: str = ""
     #: keys the model has SEEN this run (shown in the summary view, read, or just
     #: created) — a file it has not seen may not be edited/overwritten blindly. Per-run,
-    #: in-memory only (never persisted): each model run starts from `begin_run`.
-    seen: set[str] = field(default_factory=set)
+    #: in-memory only (never persisted): each model run starts from `begin_run`. Held in a
+    #: ContextVar so CONCURRENT model runs (asyncio tasks) each keep their own set — see
+    #: the `seen` property below.
     #: bumped on every mutation — lets callers memoize whole-store renders (assembling
     #: the view re-tokenizes everything; without this it is re-done per ingest chunk).
     version: int = 0
@@ -122,6 +127,18 @@ class VStore:
         return self._owner(_split(key)).is_typed(key)
 
     # ---- the read-before-modify gate ---------------------------------------
+    @property
+    def seen(self) -> set[str]:
+        cur = _SEEN.get()
+        if cur is None:
+            cur = set()
+            _SEEN.set(cur)
+        return cur
+
+    @seen.setter
+    def seen(self, value: set[str]) -> None:
+        _SEEN.set(value)
+
     def begin_run(self, shown: str = "") -> None:
         """Reset per-run knowledge and seed it from what the model is about to SEE.
 

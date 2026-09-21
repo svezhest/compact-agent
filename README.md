@@ -35,6 +35,10 @@ uv run compact-agent compact my-chat -w 48000      # window override for this ru
 uv run compact-agent compact my-chat -p examples/sections -s study -s people:timeline=off
 ```
 
+No API key? `examples/claude_code_gateway.py` exposes a logged-in Claude Code CLI as an
+OpenAI-compatible endpoint (function calling emulated through structured output). A worked
+end-to-end run over job channels is in `examples/jobs-demo/`.
+
 The run checkpoints after every batch (`.compact_progress.json`); rerunning the same
 command resumes and reprocesses nothing that is unchanged.
 
@@ -108,10 +112,12 @@ src/compact_agent/
   sections/       base.py (Section contract), store.py (virtual store),
                   people / world / history / key_facts, registry.py (plugins)
 examples/
-  sections/       study, codebase, insights, job_offers, companies, contacts, market
+  sections/       study, codebase, insights, job_offers, companies, contacts, market, shortlist
   sections.toml   a run spec that enables plugins
   sample-chat/    a synthetic 20-message conversation
+  jobs-demo/      job channels -> shortlist / companies / market (README inside)
   import_telegram_export.py   offline converter for a Telegram Desktop JSON export
+  claude_code_gateway.py      run on a Claude Code subscription instead of an API key
 tests/            pytest; `uv run python -m pytest -q`
 ```
 

@@ -364,11 +364,15 @@ def _crossed_deadlines(last: str, now: str, deadlines: tuple[str, ...]) -> list[
 
 class Engine:
     def __init__(self, cfg: Config, slug: str, window: int, *, timeout=None,
-                 spec: dict | None = None):
+                 spec: dict | None = None, concurrency: int = 1):
         self.cfg = cfg
         self.slug = slug
         self.window = window
         self.timeout = timeout
+        # How many INDEPENDENT ingest groups (different files: one per person / post / day)
+        # may run as concurrent model calls. Sections that digest the whole batch into one
+        # shared file (world-type) always run alone, after the parallel ones.
+        self.concurrency = max(1, concurrency)
         self.chat = ChatStore(slug)
         self.spec = spec or load_spec(self.chat.dir / "sections.toml")
         self.sections = build_sections(self.spec)
@@ -688,6 +692,19 @@ class Engine:
         # at the batch boundary: a big batch (hundreds of atoms) was otherwise hours of work
         # with NO checkpoint, so a crash/restart lost all of it and the report never updated.
         base = len(done_atoms)
+
+        def _maybe_persist() -> None:
+            nonlocal base
+            if persist and len(done_atoms) - base >= _PERSIST_EVERY:
+                persist(rel, background=True)
+                base = len(done_atoms)
+
+        # Two phases per batch: PARALLEL — every section that splits the batch into several
+        # groups (per person / post / day: disjoint files) runs its groups concurrently under
+        # a semaphore; then SEQUENTIAL — whole-batch digests (world-type, one shared file each)
+        # run one at a time, after, so they see the parallel phase's writes.
+        parallel: list[tuple] = []
+        sequential: list[tuple] = []
         for s, r in self._rules(OnEntry):
             fresh = [
                 a for a in batch_atoms
@@ -696,11 +713,28 @@ class Engine:
             ]
             if not fresh:
                 continue
-            for gkey, gatoms in s.ingest_groups(fresh):
-                await self._ingest_group(agent, s, r, gkey, gatoms, bi, rel, budget, done_atoms)
-                if persist and len(done_atoms) - base >= _PERSIST_EVERY:
-                    persist(rel, background=True)
-                    base = len(done_atoms)
+            groups = s.ingest_groups(fresh)
+            if self.concurrency > 1 and len(groups) > 1:
+                parallel += [(s, r, gkey, gatoms) for gkey, gatoms in groups]
+            else:
+                sequential += [(s, r, gkey, gatoms) for gkey, gatoms in groups]
+
+        if parallel:
+            sem = asyncio.Semaphore(self.concurrency)
+
+            async def _one(item):
+                s, r, gkey, gatoms = item
+                async with sem:
+                    await self._ingest_group(agent, s, r, gkey, gatoms, bi, rel, budget, done_atoms)
+                _maybe_persist()
+
+            ui.detail(f"parallel ingest: {len(parallel)} group(s), {self.concurrency} at a time",
+                      style="cyan")
+            await asyncio.gather(*(asyncio.create_task(_one(it)) for it in parallel))
+
+        for s, r, gkey, gatoms in sequential:
+            await self._ingest_group(agent, s, r, gkey, gatoms, bi, rel, budget, done_atoms)
+            _maybe_persist()
 
     async def _ingest_group(self, agent, s, r, gkey, gatoms, bi, rel, budget, done_atoms):
         """Run one section ingest group as adaptive, truncation-safe bounded passes."""
@@ -785,5 +819,6 @@ def _days_between(a: str, b: str) -> int:
 
 
 async def compact_chat_v2(cfg: Config, slug: str, window: int, timeout=None,
-                          spec: dict | None = None) -> Path:
-    return await Engine(cfg, slug, window, timeout=timeout, spec=spec).run()
+                          spec: dict | None = None, concurrency: int = 1) -> Path:
+    return await Engine(cfg, slug, window, timeout=timeout, spec=spec,
+                        concurrency=concurrency).run()

@@ -149,3 +149,17 @@ def test_corrupt_checkpoint_degrades_to_fresh_run(chat):
     assert out.exists()
     data = json.loads(prog.read_text())  # checkpoint rebuilt, valid again
     assert data["version"] == 3 and data["done_atoms"]
+
+
+def test_engine_parallel_ingest_matches_sequential(chat):
+    """concurrency>1 runs per-person/per-day groups concurrently; the result set of
+    processed (section × atom) entries and store files must equal the sequential run's."""
+    import json
+    seq = asyncio.run(eng.compact_chat_v2(_cfg(), SLUG, window=20000))
+    seq_data = json.loads((chat / SLUG / ".compact_progress.json").read_text())
+    (chat / SLUG / ".compact_progress.json").unlink()
+    par = asyncio.run(eng.compact_chat_v2(_cfg(), SLUG, window=20000, concurrency=4))
+    par_data = json.loads((chat / SLUG / ".compact_progress.json").read_text())
+    assert par.exists()
+    assert set(par_data["done_atoms"]) == set(seq_data["done_atoms"])
+    assert set(par_data["store"]["files"]) == set(seq_data["store"]["files"])

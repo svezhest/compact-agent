@@ -69,6 +69,11 @@ def compact(
     timeout: Optional[float] = typer.Option(
         None, "--timeout", help="Per-request timeout in seconds (default: 1200)."
     ),
+    concurrency: int = typer.Option(
+        1, "--concurrency", "-j",
+        help="Concurrent model calls for independent ingest groups (per person / post / "
+        "day). Whole-batch digests still run one at a time. Env: COMPACT_CONCURRENCY.",
+    ),
 ):
     """Compact a stored chat into a structured markdown report (resumable).
 
@@ -96,7 +101,9 @@ def compact(
     except ValueError as e:
         raise typer.BadParameter(str(e))
 
-    asyncio.run(compact_chat_v2(cfg, slug, w, timeout, spec))
+    import os
+    j = concurrency if concurrency != 1 else int(os.getenv("COMPACT_CONCURRENCY", "1"))
+    asyncio.run(compact_chat_v2(cfg, slug, w, timeout, spec, concurrency=j))
 
 
 @app.command(name="list")
