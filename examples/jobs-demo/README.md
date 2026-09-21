@@ -41,3 +41,20 @@ resumes; `-w` sets the context window, the one knob that shapes the run.
 Cost note (Haiku via the gateway): roughly 20–40k input tokens per model call and several
 calls per batch, so budget a few dollars per few hundred posts. Use `--from` on the
 importer or `limit` to keep the demo small.
+
+## Sample output
+
+`output/` holds two real, de-identified reports (people appear as `@u<hash>`; the
+hash → name vault stays local) produced from public Telegram job channels, 60 latest posts
+each, comments included:
+
+- `fkn-vacancies.md` — [@vacancy_cs](https://t.me/vacancy_cs) («ФКН: Вакансии»), 471
+  messages; the run was stopped after 2 of 5 batches.
+- `hiring-kt.md` — [@hiring_ct](https://t.me/hiring_ct) («Hiring КТ»), 60 posts; stopped
+  after 2 of 3 batches.
+
+Model: Claude Haiku through `claude_code_gateway.py`, window 32k, `-j 6`, the profile in
+`profile.md`. Partial on purpose: the point is the shape of the four buckets, not
+coverage. Known rough edges visible in them: `variance` is never filled in the offer cards,
+net-USD estimates are the model's guesses, and the digest sections sometimes carry their own
+sub-headings.
