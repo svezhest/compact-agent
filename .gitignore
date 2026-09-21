@@ -1,0 +1,45 @@
+# --- Private data (the whole point: fetched chats never leave the machine) ---
+/data/
+
+# --- Secrets / credentials ---
+.env
+*.env
+!.env.example
+# messenger auth sessions — committing these leaks account access
+*.session
+*.session-journal
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtualenv ---
+.venv/
+venv/
+
+# --- Tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- One-off patch backups ---
+*.bak
+
+# --- Build/export artifacts ---
+*.zip
+
+# --- OS / editor cruft ---
+.DS_Store
+__MACOSX/
+*.swp
+
+# --- Local agent state ---
+.claude/
+
+# --- Sample data copied into data/ for a trial run lives only in examples/ ---

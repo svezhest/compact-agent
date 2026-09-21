@@ -1,0 +1,12 @@
+{
+  "chat_id": 9001,
+  "title": "Book club (sample)",
+  "kind": "group",
+  "slug": "sample-chat",
+  "fetched_at": "2026-05-01T00:00:00Z",
+  "message_count": 20,
+  "members": 4,
+  "extra": {
+    "platform": "synthetic"
+  }
+}

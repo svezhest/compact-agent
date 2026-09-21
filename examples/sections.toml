@@ -1,0 +1,26 @@
+# Per-run section selection. Copy next to your data (data/<slug>/sections.toml) or into the
+# cwd. A file with [sections.*] tables REPLACES the built-in default set, in the order you
+# list them (that is the view order). The CLI still overrides: -s study, --drop people.
+#
+# Built in:  people, world, history, key_facts
+# Plugins:   any *.py in plugin_dirs exporting `section(features)` — see examples/sections/
+
+plugin_dirs = ["sections"]   # relative to this file
+
+[sections.people]
+timeline = true              # optional feature: per-year timeline notes per person
+
+[sections.world]
+
+[sections.history]
+
+[sections.key_facts]
+
+# --- example plugins (opt-in) ---
+# [sections.study]           # academic record: study/<course>/<YYYY>-fall|spring
+# [sections.codebase]        # repo skeleton reconstructed from a work chat
+# [sections.insights]        # the model's own cross-corpus synthesis
+# [sections.job_offers]      # typed vacancy cards + notes (job board channels)
+# [sections.companies]       # employer profiles (pairs with job_offers)
+# [sections.contacts]        # apply routes (pairs with job_offers)
+# [sections.market]          # prose digest over the offers (pairs with job_offers)
